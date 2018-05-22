@@ -64,6 +64,7 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
 
             if (lastFocusedEventData.data.is_unavailable == false) {
                 var appointment = lastFocusedEventData.data;
+                //console.log("Appointment Data is:"+appointment.status);
                 $dialog = $('#manage-appointment');
 
                 BackendCalendarAppointmentsModal.resetAppointmentDialog();
@@ -91,6 +92,7 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
                 $dialog.find('#city').val(customer.city);
                 $dialog.find('#zip-code').val(customer.zip_code);
                 $dialog.find('#appointment-notes').val(appointment.notes);
+                $dialog.find('#appointment-status').val(appointment.status);
                 $dialog.find('#customer-notes').val(customer.notes);
             } else {
                 var unavailable = lastFocusedEventData.data;
@@ -303,6 +305,17 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
                 '<button class="close-popover btn btn-default" data-po=' + jsEvent.target + '>' + EALang.close + '</button>' +
                 '</center>';
         } else {
+            var st=null;
+            if(event.data.status==1)
+            st='Registered';
+            if(event.data.status==2)
+                st='Checked in';
+            if(event.data.status==3)
+                st='Finished';
+            if(event.data.status==4)
+                st='Won\'t Come';
+            if(event.data.status==5)
+                st='Cancelled';
             displayEdit = (GlobalVariables.user.privileges.appointments.edit == true)
                 ? '' : 'hide';
             displayDelete = (GlobalVariables.user.privileges.appointments.delete == true)
@@ -335,6 +348,9 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
                 + '<br>' +
                 '<strong>' + EALang.provider + '</strong> '
                 + event.data.customer.phone_number
+                + '<br>' +
+                '<strong>' + EALang.status1 + '</strong> '
+                + st
                 + '<hr>' +
                 '<div class="text-center">' +
                 '<button class="edit-popover btn btn-primary ' + displayEdit + '">' + EALang.edit + '</button>' +
@@ -1235,6 +1251,7 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
         if (GlobalVariables.editAppointment != null) {
             var $dialog = $('#manage-appointment');
             var appointment = GlobalVariables.editAppointment;
+            console.log("value is :"+appointment.notes);
             BackendCalendarAppointmentsModal.resetAppointmentDialog();
 
             $dialog.find('.modal-header h3').text(EALang.edit_appointment_title);
@@ -1259,6 +1276,7 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
             $dialog.find('#city').val(customer.city);
             $dialog.find('#zip-code').val(customer.zip_code);
             $dialog.find('#appointment-notes').val(appointment.notes);
+            $dialog.find('#appointment-status').val(appointment.status);
             $dialog.find('#customer-notes').val(customer.notes);
 
             $dialog.modal('show');

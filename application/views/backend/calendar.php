@@ -13,25 +13,25 @@
 <script src="<?= asset_url('assets/js/backend_calendar_api.js') ?>"></script>
 <script>
     var GlobalVariables = {
-        'csrfToken'             : <?= json_encode($this->security->get_csrf_hash()) ?>,
-        'availableProviders'    : <?= json_encode($available_providers) ?>,
-        'availableServices'     : <?= json_encode($available_services) ?>,
-        'baseUrl'               : <?= json_encode($base_url) ?>,
-        'bookAdvanceTimeout'    : <?= $book_advance_timeout ?>,
-        'dateFormat'            : <?= json_encode($date_format) ?>,
-        'editAppointment'       : <?= json_encode($edit_appointment) ?>,
-        'customers'             : <?= json_encode($customers) ?>,
-        'secretaryProviders'    : <?= json_encode($secretary_providers) ?>,
-        'calendarView'          : <?= json_encode($calendar_view) ?>,
-        'user'                  : {
-            'id'        : <?= $user_id ?>,
-            'email'     : <?= json_encode($user_email) ?>,
-            'role_slug' : <?= json_encode($role_slug) ?>,
+        'csrfToken': <?= json_encode($this->security->get_csrf_hash()) ?>,
+        'availableProviders': <?= json_encode($available_providers) ?>,
+        'availableServices': <?= json_encode($available_services) ?>,
+        'baseUrl': <?= json_encode($base_url) ?>,
+        'bookAdvanceTimeout': <?= $book_advance_timeout ?>,
+        'dateFormat': <?= json_encode($date_format) ?>,
+        'editAppointment': <?= json_encode($edit_appointment) ?>,
+        'customers': <?= json_encode($customers) ?>,
+        'secretaryProviders': <?= json_encode($secretary_providers) ?>,
+        'calendarView': <?= json_encode($calendar_view) ?>,
+        'user': {
+            'id': <?= $user_id ?>,
+            'email': <?= json_encode($user_email) ?>,
+            'role_slug': <?= json_encode($role_slug) ?>,
             'privileges': <?= json_encode($privileges) ?>
         }
     };
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         BackendCalendar.initialize(GlobalVariables.calendarView);
     });
 </script>
@@ -48,7 +48,7 @@
 
         <div id="calendar-actions" class="col-xs-12 col-sm-7">
             <?php if (($role_slug == DB_SLUG_ADMIN || $role_slug == DB_SLUG_PROVIDER)
-                    && Config::GOOGLE_SYNC_FEATURE == TRUE): ?>
+                && Config::GOOGLE_SYNC_FEATURE == TRUE): ?>
                 <button id="google-sync" class="btn btn-primary"
                         title="<?= lang('trigger_google_sync_hint') ?>">
                     <span class="glyphicon glyphicon-refresh"></span>
@@ -116,7 +116,7 @@
                                         // Group services by category, only if there is at least one service
                                         // with a parent category.
                                         $has_category = FALSE;
-                                        foreach($available_services as $service) {
+                                        foreach ($available_services as $service) {
                                             if ($service['category_id'] != NULL) {
                                                 $has_category = TRUE;
                                                 break;
@@ -126,7 +126,7 @@
                                         if ($has_category) {
                                             $grouped_services = array();
 
-                                            foreach($available_services as $service) {
+                                            foreach ($available_services as $service) {
                                                 if ($service['category_id'] != NULL) {
                                                     if (!isset($grouped_services[$service['category_name']])) {
                                                         $grouped_services[$service['category_name']] = array();
@@ -139,27 +139,27 @@
                                             // We need the uncategorized services at the end of the list so
                                             // we will use another iteration only for the uncategorized services.
                                             $grouped_services['uncategorized'] = array();
-                                            foreach($available_services as $service) {
+                                            foreach ($available_services as $service) {
                                                 if ($service['category_id'] == NULL) {
                                                     $grouped_services['uncategorized'][] = $service;
                                                 }
                                             }
 
-                                            foreach($grouped_services as $key => $group) {
+                                            foreach ($grouped_services as $key => $group) {
                                                 $group_label = ($key != 'uncategorized')
                                                     ? $group[0]['category_name'] : 'Uncategorized';
 
                                                 if (count($group) > 0) {
                                                     echo '<optgroup label="' . $group_label . '">';
-                                                    foreach($group as $service) {
+                                                    foreach ($group as $service) {
                                                         echo '<option value="' . $service['id'] . '">'
                                                             . $service['name'] . '</option>';
                                                     }
                                                     echo '</optgroup>';
                                                 }
                                             }
-                                        }  else {
-                                            foreach($available_services as $service) {
+                                        } else {
+                                            foreach ($available_services as $service) {
                                                 echo '<option value="' . $service['id'] . '">'
                                                     . $service['name'] . '</option>';
                                             }
@@ -176,7 +176,8 @@
 
                             <div class="col-xs-12 col-sm-6">
                                 <div class="form-group">
-                                    <label for="start-datetime" class="control-label"><?= lang('start_date_time') ?></label>
+                                    <label for="start-datetime"
+                                           class="control-label"><?= lang('start_date_time') ?></label>
                                     <input id="start-datetime" class="required form-control">
                                 </div>
 
@@ -192,6 +193,23 @@
                                 <div class="form-group">
                                     <label for="appointment-notes" class="control-label"><?= lang('notes') ?></label>
                                     <textarea id="appointment-notes" class="form-control" rows="2"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="appointment-status"
+                                               class="control-label"><?= lang('status') ?></label>
+                                        <!-- <textarea id="appointment-status" class="form-control" rows="2"></textarea>-->
+                                        <select class="form-control" id="appointment-status"
+                                                data-field="appointment-status">
+                                            <option value="1">Registered</option>
+                                            <option value="2">Checked-In</option>
+                                            <option value="3">Finished</option>
+                                            <option value="4">Won't Come</option>
+                                            <option value="5">Cancelled</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -236,7 +254,8 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="phone-number" class="control-label"><?= lang('phone_number') ?> *</label>
+                                    <label for="phone-number" class="control-label"><?= lang('phone_number') ?>
+                                        *</label>
                                     <input id="phone-number" class="required form-control">
                                 </div>
                             </div>
@@ -268,7 +287,8 @@
 
             <div class="modal-footer">
                 <button id="save-appointment" class="btn btn-primary"><?= lang('save') ?></button>
-                <button id="cancel-appointment" class="btn btn-default" data-dismiss="modal"><?= lang('cancel') ?></button>
+                <button id="cancel-appointment" class="btn btn-default"
+                        data-dismiss="modal"><?= lang('cancel') ?></button>
             </div>
         </div>
     </div>
@@ -289,7 +309,7 @@
                 <form>
                     <fieldset>
                         <input id="unavailable-id" type="hidden">
-                        
+
                         <div class="form-group">
                             <label for="unavailable-provider" class="control-label"><?= lang('provider') ?></label>
                             <select id="unavailable-provider" class="form-control"></select>
@@ -314,7 +334,8 @@
             </div>
             <div class="modal-footer">
                 <button id="save-unavailable" class="btn btn-primary"><?= lang('save') ?></button>
-                <button id="cancel-unavailable" class="btn btn-default" data-dismiss="modal"><?= lang('cancel') ?></button>
+                <button id="cancel-unavailable" class="btn btn-default"
+                        data-dismiss="modal"><?= lang('cancel') ?></button>
             </div>
         </div>
     </div>
@@ -331,7 +352,8 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label for="google-calendar" class="control-label"><?= lang('select_google_calendar_prompt') ?></label>
+                    <label for="google-calendar"
+                           class="control-label"><?= lang('select_google_calendar_prompt') ?></label>
                     <select id="google-calendar" class="form-control"></select>
                 </div>
             </div>

@@ -10,8 +10,7 @@
                     echo ' - ' . $release_title;
                 }
             ?></a> |
-        <?= lang('licensed_under') ?> GPLv3 |
-        <span id="select-language" class="label label-success">
+                <span id="select-language" class="label label-success">
         	<?= ucfirst($this->config->item('language')) ?>
         </span>
         |

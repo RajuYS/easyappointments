@@ -4275,3 +4275,1314 @@ INFO - 2018-05-21 13:01:12 --> Model Class Initialized
 INFO - 2018-05-21 13:01:12 --> Model Class Initialized
 INFO - 2018-05-21 13:01:12 --> Final output sent to browser
 DEBUG - 2018-05-21 13:01:12 --> Total execution time: 0.4994
+INFO - 2018-05-21 14:40:39 --> Config Class Initialized
+INFO - 2018-05-21 14:40:39 --> Hooks Class Initialized
+DEBUG - 2018-05-21 14:40:39 --> UTF-8 Support Enabled
+INFO - 2018-05-21 14:40:39 --> Utf8 Class Initialized
+INFO - 2018-05-21 14:40:39 --> URI Class Initialized
+INFO - 2018-05-21 14:40:39 --> Router Class Initialized
+INFO - 2018-05-21 14:40:39 --> Output Class Initialized
+INFO - 2018-05-21 14:40:39 --> Security Class Initialized
+DEBUG - 2018-05-21 14:40:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 14:40:39 --> CSRF cookie sent
+INFO - 2018-05-21 14:40:39 --> Input Class Initialized
+INFO - 2018-05-21 14:40:39 --> Language Class Initialized
+INFO - 2018-05-21 14:40:39 --> Loader Class Initialized
+INFO - 2018-05-21 14:40:39 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 14:40:39 --> Helper loaded: url_helper
+INFO - 2018-05-21 14:40:39 --> Helper loaded: file_helper
+INFO - 2018-05-21 14:40:39 --> Helper loaded: language_helper
+INFO - 2018-05-21 14:40:39 --> Helper loaded: asset_helper
+INFO - 2018-05-21 14:40:39 --> Helper loaded: config_helper
+INFO - 2018-05-21 14:40:39 --> Database Driver Class Initialized
+INFO - 2018-05-21 14:40:39 --> Controller Class Initialized
+INFO - 2018-05-21 14:40:39 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 14:40:39 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 14:40:39 --> Model Class Initialized
+INFO - 2018-05-21 14:40:39 --> Model Class Initialized
+INFO - 2018-05-21 14:40:39 --> Model Class Initialized
+INFO - 2018-05-21 14:40:39 --> Model Class Initialized
+INFO - 2018-05-21 14:40:39 --> Model Class Initialized
+INFO - 2018-05-21 14:40:39 --> Model Class Initialized
+INFO - 2018-05-21 14:40:39 --> Model Class Initialized
+INFO - 2018-05-21 14:40:39 --> Model Class Initialized
+INFO - 2018-05-21 14:40:39 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/header.php
+INFO - 2018-05-21 14:40:39 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/calendar.php
+INFO - 2018-05-21 14:40:39 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/footer.php
+INFO - 2018-05-21 14:40:39 --> Final output sent to browser
+DEBUG - 2018-05-21 14:40:39 --> Total execution time: 0.5426
+INFO - 2018-05-21 15:01:04 --> Config Class Initialized
+INFO - 2018-05-21 15:01:04 --> Hooks Class Initialized
+DEBUG - 2018-05-21 15:01:04 --> UTF-8 Support Enabled
+INFO - 2018-05-21 15:01:04 --> Utf8 Class Initialized
+INFO - 2018-05-21 15:01:04 --> URI Class Initialized
+DEBUG - 2018-05-21 15:01:04 --> No URI present. Default controller set.
+INFO - 2018-05-21 15:01:04 --> Router Class Initialized
+INFO - 2018-05-21 15:01:04 --> Output Class Initialized
+INFO - 2018-05-21 15:01:04 --> Security Class Initialized
+DEBUG - 2018-05-21 15:01:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 15:01:04 --> Input Class Initialized
+INFO - 2018-05-21 15:01:04 --> Language Class Initialized
+INFO - 2018-05-21 15:01:04 --> Loader Class Initialized
+INFO - 2018-05-21 15:01:04 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 15:01:04 --> Helper loaded: url_helper
+INFO - 2018-05-21 15:01:04 --> Helper loaded: file_helper
+INFO - 2018-05-21 15:01:04 --> Helper loaded: language_helper
+INFO - 2018-05-21 15:01:04 --> Helper loaded: asset_helper
+INFO - 2018-05-21 15:01:04 --> Helper loaded: config_helper
+INFO - 2018-05-21 15:01:04 --> Database Driver Class Initialized
+INFO - 2018-05-21 15:01:04 --> Controller Class Initialized
+DEBUG - 2018-05-21 15:01:04 --> Session: Initialization under CLI aborted.
+INFO - 2018-05-21 15:01:04 --> Helper loaded: installation_helper
+INFO - 2018-05-21 15:01:05 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 15:01:05 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 15:01:05 --> Model Class Initialized
+INFO - 2018-05-21 15:01:05 --> Model Class Initialized
+INFO - 2018-05-21 15:01:05 --> Model Class Initialized
+INFO - 2018-05-21 15:01:05 --> Model Class Initialized
+INFO - 2018-05-21 15:01:05 --> Model Class Initialized
+INFO - 2018-05-21 15:01:05 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\appointments/book.php
+INFO - 2018-05-21 15:01:05 --> Final output sent to browser
+DEBUG - 2018-05-21 15:01:05 --> Total execution time: 0.4455
+INFO - 2018-05-21 15:11:38 --> Config Class Initialized
+INFO - 2018-05-21 15:11:38 --> Hooks Class Initialized
+DEBUG - 2018-05-21 15:11:38 --> UTF-8 Support Enabled
+INFO - 2018-05-21 15:11:38 --> Utf8 Class Initialized
+INFO - 2018-05-21 15:11:38 --> URI Class Initialized
+DEBUG - 2018-05-21 15:11:38 --> No URI present. Default controller set.
+INFO - 2018-05-21 15:11:38 --> Router Class Initialized
+INFO - 2018-05-21 15:11:38 --> Output Class Initialized
+INFO - 2018-05-21 15:11:38 --> Security Class Initialized
+DEBUG - 2018-05-21 15:11:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 15:11:38 --> Input Class Initialized
+INFO - 2018-05-21 15:11:38 --> Language Class Initialized
+INFO - 2018-05-21 15:11:38 --> Loader Class Initialized
+INFO - 2018-05-21 15:11:38 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 15:11:38 --> Helper loaded: url_helper
+INFO - 2018-05-21 15:11:38 --> Helper loaded: file_helper
+INFO - 2018-05-21 15:11:38 --> Helper loaded: language_helper
+INFO - 2018-05-21 15:11:38 --> Helper loaded: asset_helper
+INFO - 2018-05-21 15:11:38 --> Helper loaded: config_helper
+INFO - 2018-05-21 15:11:38 --> Database Driver Class Initialized
+INFO - 2018-05-21 15:11:38 --> Controller Class Initialized
+DEBUG - 2018-05-21 15:11:38 --> Session: Initialization under CLI aborted.
+INFO - 2018-05-21 15:11:38 --> Helper loaded: installation_helper
+INFO - 2018-05-21 15:11:38 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 15:11:39 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 15:11:39 --> Model Class Initialized
+INFO - 2018-05-21 15:11:39 --> Model Class Initialized
+INFO - 2018-05-21 15:11:39 --> Model Class Initialized
+INFO - 2018-05-21 15:11:39 --> Model Class Initialized
+INFO - 2018-05-21 15:11:39 --> Model Class Initialized
+INFO - 2018-05-21 15:11:39 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\appointments/book.php
+INFO - 2018-05-21 15:11:39 --> Final output sent to browser
+DEBUG - 2018-05-21 15:11:39 --> Total execution time: 0.5363
+INFO - 2018-05-21 17:24:39 --> Config Class Initialized
+INFO - 2018-05-21 17:24:39 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:24:39 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:24:39 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:24:39 --> URI Class Initialized
+DEBUG - 2018-05-21 17:24:39 --> No URI present. Default controller set.
+INFO - 2018-05-21 17:24:39 --> Router Class Initialized
+INFO - 2018-05-21 17:24:39 --> Output Class Initialized
+INFO - 2018-05-21 17:24:39 --> Security Class Initialized
+DEBUG - 2018-05-21 17:24:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:24:40 --> CSRF cookie sent
+INFO - 2018-05-21 17:24:40 --> Input Class Initialized
+INFO - 2018-05-21 17:24:40 --> Language Class Initialized
+INFO - 2018-05-21 17:24:40 --> Loader Class Initialized
+INFO - 2018-05-21 17:24:40 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:24:40 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:24:40 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:24:40 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:24:40 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:24:40 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:24:40 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:24:40 --> Controller Class Initialized
+INFO - 2018-05-21 17:24:40 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:24:40 --> Helper loaded: installation_helper
+INFO - 2018-05-21 17:24:40 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:24:40 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 17:24:40 --> Model Class Initialized
+INFO - 2018-05-21 17:24:40 --> Model Class Initialized
+INFO - 2018-05-21 17:24:40 --> Model Class Initialized
+INFO - 2018-05-21 17:24:40 --> Model Class Initialized
+INFO - 2018-05-21 17:24:40 --> Model Class Initialized
+INFO - 2018-05-21 17:24:40 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\appointments/book.php
+INFO - 2018-05-21 17:24:40 --> Final output sent to browser
+DEBUG - 2018-05-21 17:24:40 --> Total execution time: 0.6942
+INFO - 2018-05-21 17:24:40 --> Config Class Initialized
+INFO - 2018-05-21 17:24:40 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:24:41 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:24:41 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:24:41 --> URI Class Initialized
+INFO - 2018-05-21 17:24:41 --> Router Class Initialized
+INFO - 2018-05-21 17:24:41 --> Output Class Initialized
+INFO - 2018-05-21 17:24:41 --> Security Class Initialized
+DEBUG - 2018-05-21 17:24:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:24:41 --> CSRF cookie sent
+INFO - 2018-05-21 17:24:41 --> Input Class Initialized
+INFO - 2018-05-21 17:24:41 --> Language Class Initialized
+INFO - 2018-05-21 17:24:41 --> Loader Class Initialized
+INFO - 2018-05-21 17:24:41 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:24:41 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:24:41 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:24:41 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:24:41 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:24:41 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:24:41 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:24:41 --> Controller Class Initialized
+INFO - 2018-05-21 17:24:41 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:24:41 --> Helper loaded: installation_helper
+INFO - 2018-05-21 17:24:41 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:24:41 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 17:24:41 --> Model Class Initialized
+INFO - 2018-05-21 17:24:41 --> Model Class Initialized
+INFO - 2018-05-21 17:24:41 --> Model Class Initialized
+INFO - 2018-05-21 17:24:41 --> Model Class Initialized
+INFO - 2018-05-21 17:24:41 --> Final output sent to browser
+DEBUG - 2018-05-21 17:24:41 --> Total execution time: 0.7537
+INFO - 2018-05-21 17:24:41 --> Config Class Initialized
+INFO - 2018-05-21 17:24:41 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:24:41 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:24:41 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:24:41 --> URI Class Initialized
+INFO - 2018-05-21 17:24:42 --> Router Class Initialized
+INFO - 2018-05-21 17:24:42 --> Output Class Initialized
+INFO - 2018-05-21 17:24:42 --> Security Class Initialized
+DEBUG - 2018-05-21 17:24:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:24:42 --> CSRF cookie sent
+INFO - 2018-05-21 17:24:42 --> CSRF token verified
+INFO - 2018-05-21 17:24:42 --> Input Class Initialized
+INFO - 2018-05-21 17:24:42 --> Language Class Initialized
+INFO - 2018-05-21 17:24:42 --> Loader Class Initialized
+INFO - 2018-05-21 17:24:42 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:24:42 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:24:42 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:24:42 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:24:42 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:24:42 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:24:42 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:24:42 --> Controller Class Initialized
+INFO - 2018-05-21 17:24:42 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:24:42 --> Helper loaded: installation_helper
+INFO - 2018-05-21 17:24:42 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:24:42 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 17:24:42 --> Model Class Initialized
+INFO - 2018-05-21 17:24:42 --> Model Class Initialized
+INFO - 2018-05-21 17:24:42 --> Model Class Initialized
+INFO - 2018-05-21 17:24:42 --> Model Class Initialized
+INFO - 2018-05-21 17:24:42 --> Final output sent to browser
+DEBUG - 2018-05-21 17:24:42 --> Total execution time: 0.5820
+INFO - 2018-05-21 17:31:31 --> Config Class Initialized
+INFO - 2018-05-21 17:31:31 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:31:31 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:31:32 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:31:32 --> URI Class Initialized
+DEBUG - 2018-05-21 17:31:32 --> No URI present. Default controller set.
+INFO - 2018-05-21 17:31:32 --> Router Class Initialized
+INFO - 2018-05-21 17:31:32 --> Output Class Initialized
+INFO - 2018-05-21 17:31:32 --> Security Class Initialized
+DEBUG - 2018-05-21 17:31:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:31:32 --> CSRF cookie sent
+INFO - 2018-05-21 17:31:32 --> Input Class Initialized
+INFO - 2018-05-21 17:31:32 --> Language Class Initialized
+INFO - 2018-05-21 17:31:32 --> Loader Class Initialized
+INFO - 2018-05-21 17:31:32 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:31:32 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:31:32 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:31:32 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:31:32 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:31:32 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:31:32 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:31:32 --> Controller Class Initialized
+INFO - 2018-05-21 17:31:32 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:31:32 --> Helper loaded: installation_helper
+INFO - 2018-05-21 17:31:32 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:31:32 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 17:31:32 --> Model Class Initialized
+INFO - 2018-05-21 17:31:32 --> Model Class Initialized
+INFO - 2018-05-21 17:31:32 --> Model Class Initialized
+INFO - 2018-05-21 17:31:32 --> Model Class Initialized
+INFO - 2018-05-21 17:31:32 --> Model Class Initialized
+INFO - 2018-05-21 17:31:32 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\appointments/book.php
+INFO - 2018-05-21 17:31:32 --> Final output sent to browser
+DEBUG - 2018-05-21 17:31:32 --> Total execution time: 0.8981
+INFO - 2018-05-21 17:31:32 --> Config Class Initialized
+INFO - 2018-05-21 17:31:32 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:31:33 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:31:33 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:31:33 --> URI Class Initialized
+INFO - 2018-05-21 17:31:33 --> Router Class Initialized
+INFO - 2018-05-21 17:31:33 --> Output Class Initialized
+INFO - 2018-05-21 17:31:33 --> Security Class Initialized
+DEBUG - 2018-05-21 17:31:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:31:33 --> CSRF cookie sent
+INFO - 2018-05-21 17:31:33 --> Input Class Initialized
+INFO - 2018-05-21 17:31:33 --> Language Class Initialized
+INFO - 2018-05-21 17:31:33 --> Loader Class Initialized
+INFO - 2018-05-21 17:31:33 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:31:33 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:31:33 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:31:33 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:31:33 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:31:33 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:31:33 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:31:33 --> Controller Class Initialized
+INFO - 2018-05-21 17:31:33 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:31:33 --> Helper loaded: installation_helper
+INFO - 2018-05-21 17:31:33 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:31:33 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 17:31:33 --> Model Class Initialized
+INFO - 2018-05-21 17:31:33 --> Model Class Initialized
+INFO - 2018-05-21 17:31:33 --> Model Class Initialized
+INFO - 2018-05-21 17:31:33 --> Model Class Initialized
+INFO - 2018-05-21 17:31:33 --> Final output sent to browser
+DEBUG - 2018-05-21 17:31:33 --> Total execution time: 0.5368
+INFO - 2018-05-21 17:31:33 --> Config Class Initialized
+INFO - 2018-05-21 17:31:33 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:31:33 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:31:33 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:31:33 --> URI Class Initialized
+INFO - 2018-05-21 17:31:33 --> Router Class Initialized
+INFO - 2018-05-21 17:31:33 --> Output Class Initialized
+INFO - 2018-05-21 17:31:33 --> Security Class Initialized
+DEBUG - 2018-05-21 17:31:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:31:33 --> CSRF cookie sent
+INFO - 2018-05-21 17:31:33 --> CSRF token verified
+INFO - 2018-05-21 17:31:33 --> Input Class Initialized
+INFO - 2018-05-21 17:31:33 --> Language Class Initialized
+INFO - 2018-05-21 17:31:33 --> Loader Class Initialized
+INFO - 2018-05-21 17:31:33 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:31:33 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:31:33 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:31:33 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:31:33 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:31:33 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:31:33 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:31:33 --> Controller Class Initialized
+INFO - 2018-05-21 17:31:33 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:31:33 --> Helper loaded: installation_helper
+INFO - 2018-05-21 17:31:33 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:31:33 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 17:31:33 --> Model Class Initialized
+INFO - 2018-05-21 17:31:33 --> Model Class Initialized
+INFO - 2018-05-21 17:31:33 --> Model Class Initialized
+INFO - 2018-05-21 17:31:34 --> Model Class Initialized
+INFO - 2018-05-21 17:31:34 --> Final output sent to browser
+DEBUG - 2018-05-21 17:31:34 --> Total execution time: 0.4514
+INFO - 2018-05-21 17:31:36 --> Config Class Initialized
+INFO - 2018-05-21 17:31:36 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:31:36 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:31:36 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:31:36 --> URI Class Initialized
+DEBUG - 2018-05-21 17:31:36 --> No URI present. Default controller set.
+INFO - 2018-05-21 17:31:36 --> Router Class Initialized
+INFO - 2018-05-21 17:31:36 --> Output Class Initialized
+INFO - 2018-05-21 17:31:36 --> Security Class Initialized
+DEBUG - 2018-05-21 17:31:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:31:37 --> CSRF cookie sent
+INFO - 2018-05-21 17:31:37 --> Input Class Initialized
+INFO - 2018-05-21 17:31:37 --> Language Class Initialized
+INFO - 2018-05-21 17:31:37 --> Loader Class Initialized
+INFO - 2018-05-21 17:31:37 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:31:37 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:31:37 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:31:37 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:31:37 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:31:37 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:31:37 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:31:37 --> Controller Class Initialized
+INFO - 2018-05-21 17:31:37 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:31:37 --> Helper loaded: installation_helper
+INFO - 2018-05-21 17:31:37 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:31:37 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 17:31:37 --> Model Class Initialized
+INFO - 2018-05-21 17:31:37 --> Model Class Initialized
+INFO - 2018-05-21 17:31:37 --> Model Class Initialized
+INFO - 2018-05-21 17:31:37 --> Model Class Initialized
+INFO - 2018-05-21 17:31:37 --> Model Class Initialized
+INFO - 2018-05-21 17:31:37 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\appointments/book.php
+INFO - 2018-05-21 17:31:37 --> Final output sent to browser
+DEBUG - 2018-05-21 17:31:37 --> Total execution time: 0.5010
+INFO - 2018-05-21 17:31:38 --> Config Class Initialized
+INFO - 2018-05-21 17:31:38 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:31:38 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:31:38 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:31:38 --> URI Class Initialized
+INFO - 2018-05-21 17:31:38 --> Router Class Initialized
+INFO - 2018-05-21 17:31:38 --> Output Class Initialized
+INFO - 2018-05-21 17:31:38 --> Security Class Initialized
+DEBUG - 2018-05-21 17:31:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:31:38 --> CSRF cookie sent
+INFO - 2018-05-21 17:31:38 --> Input Class Initialized
+INFO - 2018-05-21 17:31:38 --> Language Class Initialized
+INFO - 2018-05-21 17:31:38 --> Loader Class Initialized
+INFO - 2018-05-21 17:31:38 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:31:38 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:31:38 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:31:38 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:31:38 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:31:38 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:31:38 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:31:38 --> Controller Class Initialized
+INFO - 2018-05-21 17:31:38 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:31:38 --> Helper loaded: installation_helper
+INFO - 2018-05-21 17:31:38 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:31:38 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 17:31:38 --> Model Class Initialized
+INFO - 2018-05-21 17:31:38 --> Model Class Initialized
+INFO - 2018-05-21 17:31:38 --> Model Class Initialized
+INFO - 2018-05-21 17:31:38 --> Model Class Initialized
+INFO - 2018-05-21 17:31:38 --> Final output sent to browser
+DEBUG - 2018-05-21 17:31:38 --> Total execution time: 0.6469
+INFO - 2018-05-21 17:31:39 --> Config Class Initialized
+INFO - 2018-05-21 17:31:39 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:31:39 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:31:39 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:31:39 --> URI Class Initialized
+INFO - 2018-05-21 17:31:39 --> Router Class Initialized
+INFO - 2018-05-21 17:31:39 --> Output Class Initialized
+INFO - 2018-05-21 17:31:39 --> Security Class Initialized
+DEBUG - 2018-05-21 17:31:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:31:39 --> CSRF cookie sent
+INFO - 2018-05-21 17:31:39 --> CSRF token verified
+INFO - 2018-05-21 17:31:39 --> Input Class Initialized
+INFO - 2018-05-21 17:31:39 --> Language Class Initialized
+INFO - 2018-05-21 17:31:39 --> Loader Class Initialized
+INFO - 2018-05-21 17:31:39 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:31:39 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:31:39 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:31:39 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:31:39 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:31:39 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:31:39 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:31:39 --> Controller Class Initialized
+INFO - 2018-05-21 17:31:39 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:31:39 --> Helper loaded: installation_helper
+INFO - 2018-05-21 17:31:39 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:31:39 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 17:31:39 --> Model Class Initialized
+INFO - 2018-05-21 17:31:39 --> Model Class Initialized
+INFO - 2018-05-21 17:31:39 --> Model Class Initialized
+INFO - 2018-05-21 17:31:39 --> Model Class Initialized
+INFO - 2018-05-21 17:31:39 --> Final output sent to browser
+DEBUG - 2018-05-21 17:31:39 --> Total execution time: 0.5377
+INFO - 2018-05-21 17:31:40 --> Config Class Initialized
+INFO - 2018-05-21 17:31:40 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:31:40 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:31:40 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:31:40 --> URI Class Initialized
+INFO - 2018-05-21 17:31:40 --> Router Class Initialized
+INFO - 2018-05-21 17:31:40 --> Output Class Initialized
+INFO - 2018-05-21 17:31:40 --> Security Class Initialized
+DEBUG - 2018-05-21 17:31:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:31:40 --> CSRF cookie sent
+INFO - 2018-05-21 17:31:40 --> Input Class Initialized
+INFO - 2018-05-21 17:31:40 --> Language Class Initialized
+INFO - 2018-05-21 17:31:40 --> Loader Class Initialized
+INFO - 2018-05-21 17:31:40 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:31:40 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:31:40 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:31:40 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:31:40 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:31:40 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:31:40 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:31:40 --> Controller Class Initialized
+INFO - 2018-05-21 17:31:40 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:31:40 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:31:40 --> Final output sent to browser
+DEBUG - 2018-05-21 17:31:40 --> Total execution time: 0.4092
+INFO - 2018-05-21 17:31:41 --> Config Class Initialized
+INFO - 2018-05-21 17:31:41 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:31:41 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:31:41 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:31:41 --> URI Class Initialized
+INFO - 2018-05-21 17:31:41 --> Router Class Initialized
+INFO - 2018-05-21 17:31:41 --> Output Class Initialized
+INFO - 2018-05-21 17:31:41 --> Security Class Initialized
+DEBUG - 2018-05-21 17:31:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:31:41 --> CSRF cookie sent
+INFO - 2018-05-21 17:31:41 --> Input Class Initialized
+INFO - 2018-05-21 17:31:41 --> Language Class Initialized
+INFO - 2018-05-21 17:31:41 --> Loader Class Initialized
+INFO - 2018-05-21 17:31:41 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:31:41 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:31:41 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:31:41 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:31:41 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:31:41 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:31:41 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:31:41 --> Controller Class Initialized
+INFO - 2018-05-21 17:31:41 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:31:41 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:31:41 --> Model Class Initialized
+INFO - 2018-05-21 17:31:41 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\user/login.php
+INFO - 2018-05-21 17:31:41 --> Final output sent to browser
+DEBUG - 2018-05-21 17:31:41 --> Total execution time: 0.5570
+INFO - 2018-05-21 17:31:51 --> Config Class Initialized
+INFO - 2018-05-21 17:31:51 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:31:51 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:31:51 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:31:51 --> URI Class Initialized
+INFO - 2018-05-21 17:31:51 --> Router Class Initialized
+INFO - 2018-05-21 17:31:51 --> Output Class Initialized
+INFO - 2018-05-21 17:31:51 --> Security Class Initialized
+DEBUG - 2018-05-21 17:31:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:31:52 --> CSRF cookie sent
+INFO - 2018-05-21 17:31:52 --> CSRF token verified
+INFO - 2018-05-21 17:31:52 --> Input Class Initialized
+INFO - 2018-05-21 17:31:52 --> Language Class Initialized
+INFO - 2018-05-21 17:31:52 --> Loader Class Initialized
+INFO - 2018-05-21 17:31:52 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:31:52 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:31:52 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:31:52 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:31:52 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:31:52 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:31:52 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:31:52 --> Controller Class Initialized
+INFO - 2018-05-21 17:31:52 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:31:52 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:31:52 --> Model Class Initialized
+INFO - 2018-05-21 17:31:52 --> Helper loaded: general_helper
+INFO - 2018-05-21 17:31:52 --> Final output sent to browser
+DEBUG - 2018-05-21 17:31:52 --> Total execution time: 0.9461
+INFO - 2018-05-21 17:31:53 --> Config Class Initialized
+INFO - 2018-05-21 17:31:53 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:31:53 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:31:53 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:31:53 --> URI Class Initialized
+INFO - 2018-05-21 17:31:53 --> Router Class Initialized
+INFO - 2018-05-21 17:31:53 --> Output Class Initialized
+INFO - 2018-05-21 17:31:53 --> Security Class Initialized
+DEBUG - 2018-05-21 17:31:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:31:53 --> CSRF cookie sent
+INFO - 2018-05-21 17:31:53 --> Input Class Initialized
+INFO - 2018-05-21 17:31:53 --> Language Class Initialized
+INFO - 2018-05-21 17:31:53 --> Loader Class Initialized
+INFO - 2018-05-21 17:31:53 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:31:53 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:31:53 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:31:53 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:31:53 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:31:53 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:31:53 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:31:53 --> Controller Class Initialized
+INFO - 2018-05-21 17:31:53 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:31:53 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:31:53 --> Model Class Initialized
+INFO - 2018-05-21 17:31:53 --> Model Class Initialized
+INFO - 2018-05-21 17:31:53 --> Model Class Initialized
+INFO - 2018-05-21 17:31:53 --> Model Class Initialized
+INFO - 2018-05-21 17:31:53 --> Model Class Initialized
+INFO - 2018-05-21 17:31:53 --> Model Class Initialized
+INFO - 2018-05-21 17:31:53 --> Model Class Initialized
+INFO - 2018-05-21 17:31:53 --> Model Class Initialized
+INFO - 2018-05-21 17:31:53 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/header.php
+INFO - 2018-05-21 17:33:33 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/calendar.php
+INFO - 2018-05-21 17:33:34 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/footer.php
+INFO - 2018-05-21 17:33:35 --> Final output sent to browser
+DEBUG - 2018-05-21 17:33:35 --> Total execution time: 102.1721
+INFO - 2018-05-21 17:33:36 --> Config Class Initialized
+INFO - 2018-05-21 17:33:36 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:33:36 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:33:36 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:33:36 --> URI Class Initialized
+INFO - 2018-05-21 17:33:36 --> Router Class Initialized
+INFO - 2018-05-21 17:33:36 --> Output Class Initialized
+INFO - 2018-05-21 17:33:36 --> Security Class Initialized
+DEBUG - 2018-05-21 17:33:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:33:36 --> CSRF cookie sent
+INFO - 2018-05-21 17:33:36 --> CSRF token verified
+INFO - 2018-05-21 17:33:36 --> Input Class Initialized
+INFO - 2018-05-21 17:33:36 --> Language Class Initialized
+INFO - 2018-05-21 17:33:36 --> Loader Class Initialized
+INFO - 2018-05-21 17:33:36 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:33:36 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:33:36 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:33:36 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:33:36 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:33:36 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:33:36 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:33:36 --> Controller Class Initialized
+INFO - 2018-05-21 17:33:36 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:33:36 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:33:36 --> Model Class Initialized
+INFO - 2018-05-21 17:33:36 --> Helper loaded: general_helper
+INFO - 2018-05-21 17:33:37 --> Final output sent to browser
+DEBUG - 2018-05-21 17:33:37 --> Total execution time: 0.8874
+INFO - 2018-05-21 17:33:37 --> Config Class Initialized
+INFO - 2018-05-21 17:33:37 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:33:37 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:33:37 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:33:37 --> URI Class Initialized
+INFO - 2018-05-21 17:33:37 --> Router Class Initialized
+INFO - 2018-05-21 17:33:37 --> Output Class Initialized
+INFO - 2018-05-21 17:33:37 --> Security Class Initialized
+DEBUG - 2018-05-21 17:33:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:33:37 --> CSRF cookie sent
+INFO - 2018-05-21 17:33:37 --> CSRF token verified
+INFO - 2018-05-21 17:33:37 --> Input Class Initialized
+INFO - 2018-05-21 17:33:37 --> Language Class Initialized
+INFO - 2018-05-21 17:33:37 --> Loader Class Initialized
+INFO - 2018-05-21 17:33:37 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:33:37 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:33:37 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:33:37 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:33:37 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:33:37 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:33:37 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:33:37 --> Controller Class Initialized
+INFO - 2018-05-21 17:33:37 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:33:37 --> Model Class Initialized
+INFO - 2018-05-21 17:33:37 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:33:37 --> Model Class Initialized
+INFO - 2018-05-21 17:33:37 --> Model Class Initialized
+INFO - 2018-05-21 17:33:37 --> Model Class Initialized
+INFO - 2018-05-21 17:33:37 --> Model Class Initialized
+INFO - 2018-05-21 17:33:37 --> Final output sent to browser
+DEBUG - 2018-05-21 17:33:37 --> Total execution time: 0.5598
+INFO - 2018-05-21 17:33:37 --> Config Class Initialized
+INFO - 2018-05-21 17:33:37 --> Hooks Class Initialized
+DEBUG - 2018-05-21 17:33:37 --> UTF-8 Support Enabled
+INFO - 2018-05-21 17:33:37 --> Utf8 Class Initialized
+INFO - 2018-05-21 17:33:37 --> URI Class Initialized
+INFO - 2018-05-21 17:33:37 --> Router Class Initialized
+INFO - 2018-05-21 17:33:37 --> Output Class Initialized
+INFO - 2018-05-21 17:33:37 --> Security Class Initialized
+DEBUG - 2018-05-21 17:33:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 17:33:38 --> CSRF cookie sent
+INFO - 2018-05-21 17:33:38 --> CSRF token verified
+INFO - 2018-05-21 17:33:38 --> Input Class Initialized
+INFO - 2018-05-21 17:33:38 --> Language Class Initialized
+INFO - 2018-05-21 17:33:38 --> Loader Class Initialized
+INFO - 2018-05-21 17:33:38 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 17:33:38 --> Helper loaded: url_helper
+INFO - 2018-05-21 17:33:38 --> Helper loaded: file_helper
+INFO - 2018-05-21 17:33:38 --> Helper loaded: language_helper
+INFO - 2018-05-21 17:33:38 --> Helper loaded: asset_helper
+INFO - 2018-05-21 17:33:38 --> Helper loaded: config_helper
+INFO - 2018-05-21 17:33:38 --> Database Driver Class Initialized
+INFO - 2018-05-21 17:33:38 --> Controller Class Initialized
+INFO - 2018-05-21 17:33:38 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 17:33:38 --> Model Class Initialized
+INFO - 2018-05-21 17:33:38 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 17:33:38 --> Model Class Initialized
+INFO - 2018-05-21 17:33:38 --> Model Class Initialized
+INFO - 2018-05-21 17:33:38 --> Model Class Initialized
+INFO - 2018-05-21 17:33:38 --> Model Class Initialized
+INFO - 2018-05-21 17:33:38 --> Final output sent to browser
+DEBUG - 2018-05-21 17:33:38 --> Total execution time: 0.5599
+INFO - 2018-05-21 19:07:55 --> Config Class Initialized
+INFO - 2018-05-21 19:07:55 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:07:56 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:07:56 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:07:56 --> URI Class Initialized
+DEBUG - 2018-05-21 19:07:56 --> No URI present. Default controller set.
+INFO - 2018-05-21 19:07:56 --> Router Class Initialized
+INFO - 2018-05-21 19:07:56 --> Output Class Initialized
+INFO - 2018-05-21 19:07:56 --> Security Class Initialized
+DEBUG - 2018-05-21 19:07:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:07:56 --> CSRF cookie sent
+INFO - 2018-05-21 19:07:56 --> Input Class Initialized
+INFO - 2018-05-21 19:07:56 --> Language Class Initialized
+INFO - 2018-05-21 19:07:56 --> Loader Class Initialized
+INFO - 2018-05-21 19:07:56 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:07:56 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:07:56 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:07:56 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:07:56 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:07:56 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:07:56 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:07:56 --> Controller Class Initialized
+INFO - 2018-05-21 19:07:56 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:07:56 --> Helper loaded: installation_helper
+INFO - 2018-05-21 19:07:56 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:07:56 --> Helper loaded: google_analytics_helper
+INFO - 2018-05-21 19:07:56 --> Model Class Initialized
+INFO - 2018-05-21 19:07:56 --> Model Class Initialized
+INFO - 2018-05-21 19:07:56 --> Model Class Initialized
+INFO - 2018-05-21 19:07:56 --> Model Class Initialized
+INFO - 2018-05-21 19:07:56 --> Model Class Initialized
+INFO - 2018-05-21 19:07:56 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\appointments/book.php
+INFO - 2018-05-21 19:07:56 --> Final output sent to browser
+DEBUG - 2018-05-21 19:07:56 --> Total execution time: 0.5172
+INFO - 2018-05-21 19:09:54 --> Config Class Initialized
+INFO - 2018-05-21 19:09:54 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:09:54 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:09:54 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:09:54 --> URI Class Initialized
+INFO - 2018-05-21 19:09:54 --> Router Class Initialized
+INFO - 2018-05-21 19:09:54 --> Output Class Initialized
+INFO - 2018-05-21 19:09:54 --> Security Class Initialized
+DEBUG - 2018-05-21 19:09:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:09:54 --> CSRF cookie sent
+INFO - 2018-05-21 19:09:54 --> Input Class Initialized
+INFO - 2018-05-21 19:09:54 --> Language Class Initialized
+INFO - 2018-05-21 19:10:04 --> Config Class Initialized
+INFO - 2018-05-21 19:10:04 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:10:04 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:10:04 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:10:04 --> URI Class Initialized
+INFO - 2018-05-21 19:10:04 --> Router Class Initialized
+INFO - 2018-05-21 19:10:04 --> Output Class Initialized
+INFO - 2018-05-21 19:10:04 --> Security Class Initialized
+DEBUG - 2018-05-21 19:10:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:10:04 --> CSRF cookie sent
+INFO - 2018-05-21 19:10:04 --> Input Class Initialized
+INFO - 2018-05-21 19:10:04 --> Language Class Initialized
+INFO - 2018-05-21 19:10:04 --> Loader Class Initialized
+INFO - 2018-05-21 19:10:04 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:10:04 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:10:04 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:10:04 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:10:04 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:10:04 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:10:04 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:10:04 --> Controller Class Initialized
+INFO - 2018-05-21 19:10:04 --> Model Class Initialized
+INFO - 2018-05-21 19:10:04 --> Helper loaded: general_helper
+INFO - 2018-05-21 19:10:04 --> Model Class Initialized
+INFO - 2018-05-21 19:10:04 --> Final output sent to browser
+DEBUG - 2018-05-21 19:10:05 --> Total execution time: 0.6895
+INFO - 2018-05-21 19:11:55 --> Config Class Initialized
+INFO - 2018-05-21 19:11:55 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:11:55 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:11:55 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:11:55 --> URI Class Initialized
+INFO - 2018-05-21 19:11:55 --> Router Class Initialized
+INFO - 2018-05-21 19:11:55 --> Output Class Initialized
+INFO - 2018-05-21 19:11:55 --> Security Class Initialized
+DEBUG - 2018-05-21 19:11:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:11:55 --> CSRF cookie sent
+INFO - 2018-05-21 19:11:55 --> Input Class Initialized
+INFO - 2018-05-21 19:11:55 --> Language Class Initialized
+INFO - 2018-05-21 19:11:55 --> Loader Class Initialized
+INFO - 2018-05-21 19:11:55 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:11:55 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:11:55 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:11:55 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:11:55 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:11:55 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:11:55 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:11:55 --> Controller Class Initialized
+INFO - 2018-05-21 19:11:55 --> Model Class Initialized
+INFO - 2018-05-21 19:11:55 --> Helper loaded: general_helper
+INFO - 2018-05-21 19:11:55 --> Model Class Initialized
+INFO - 2018-05-21 19:11:56 --> Final output sent to browser
+DEBUG - 2018-05-21 19:11:56 --> Total execution time: 0.6540
+INFO - 2018-05-21 19:14:52 --> Config Class Initialized
+INFO - 2018-05-21 19:14:52 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:14:52 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:14:52 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:14:52 --> URI Class Initialized
+INFO - 2018-05-21 19:14:52 --> Router Class Initialized
+INFO - 2018-05-21 19:14:52 --> Output Class Initialized
+INFO - 2018-05-21 19:14:52 --> Security Class Initialized
+DEBUG - 2018-05-21 19:14:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:14:52 --> CSRF cookie sent
+INFO - 2018-05-21 19:14:52 --> Input Class Initialized
+INFO - 2018-05-21 19:14:52 --> Language Class Initialized
+INFO - 2018-05-21 19:14:52 --> Loader Class Initialized
+INFO - 2018-05-21 19:14:52 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:14:52 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:14:52 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:14:52 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:14:52 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:14:52 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:14:52 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:14:52 --> Controller Class Initialized
+INFO - 2018-05-21 19:14:52 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:14:52 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:14:53 --> Model Class Initialized
+INFO - 2018-05-21 19:14:53 --> Model Class Initialized
+INFO - 2018-05-21 19:14:53 --> Model Class Initialized
+INFO - 2018-05-21 19:14:53 --> Model Class Initialized
+INFO - 2018-05-21 19:14:53 --> Model Class Initialized
+INFO - 2018-05-21 19:14:53 --> Model Class Initialized
+INFO - 2018-05-21 19:14:53 --> Model Class Initialized
+INFO - 2018-05-21 19:14:53 --> Model Class Initialized
+INFO - 2018-05-21 19:14:53 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/header.php
+INFO - 2018-05-21 19:14:53 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/calendar.php
+INFO - 2018-05-21 19:14:53 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/footer.php
+INFO - 2018-05-21 19:14:53 --> Final output sent to browser
+DEBUG - 2018-05-21 19:14:53 --> Total execution time: 1.1263
+INFO - 2018-05-21 19:14:54 --> Config Class Initialized
+INFO - 2018-05-21 19:14:54 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:14:54 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:14:54 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:14:54 --> URI Class Initialized
+INFO - 2018-05-21 19:14:54 --> Router Class Initialized
+INFO - 2018-05-21 19:14:54 --> Output Class Initialized
+INFO - 2018-05-21 19:14:54 --> Security Class Initialized
+DEBUG - 2018-05-21 19:14:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:14:54 --> Config Class Initialized
+INFO - 2018-05-21 19:14:54 --> Hooks Class Initialized
+INFO - 2018-05-21 19:14:54 --> CSRF cookie sent
+INFO - 2018-05-21 19:14:54 --> CSRF token verified
+DEBUG - 2018-05-21 19:14:54 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:14:54 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:14:54 --> Input Class Initialized
+INFO - 2018-05-21 19:14:54 --> Language Class Initialized
+INFO - 2018-05-21 19:14:54 --> URI Class Initialized
+INFO - 2018-05-21 19:14:54 --> Router Class Initialized
+INFO - 2018-05-21 19:14:54 --> Loader Class Initialized
+INFO - 2018-05-21 19:14:54 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:14:54 --> Output Class Initialized
+INFO - 2018-05-21 19:14:54 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:14:54 --> Security Class Initialized
+INFO - 2018-05-21 19:14:55 --> Helper loaded: file_helper
+DEBUG - 2018-05-21 19:14:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:14:55 --> CSRF cookie sent
+INFO - 2018-05-21 19:14:55 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:14:55 --> CSRF token verified
+INFO - 2018-05-21 19:14:55 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:14:55 --> Input Class Initialized
+INFO - 2018-05-21 19:14:55 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:14:55 --> Language Class Initialized
+INFO - 2018-05-21 19:14:55 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:14:55 --> Controller Class Initialized
+INFO - 2018-05-21 19:14:55 --> Loader Class Initialized
+INFO - 2018-05-21 19:14:55 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:14:55 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:14:55 --> Model Class Initialized
+INFO - 2018-05-21 19:14:55 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:14:55 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:14:55 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:14:55 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:14:55 --> Model Class Initialized
+INFO - 2018-05-21 19:14:55 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:14:55 --> Model Class Initialized
+INFO - 2018-05-21 19:14:55 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:14:55 --> Model Class Initialized
+INFO - 2018-05-21 19:14:55 --> Model Class Initialized
+INFO - 2018-05-21 19:14:55 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:14:55 --> Controller Class Initialized
+INFO - 2018-05-21 19:14:55 --> Final output sent to browser
+DEBUG - 2018-05-21 19:14:55 --> Total execution time: 0.5383
+INFO - 2018-05-21 19:14:55 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:14:55 --> Model Class Initialized
+INFO - 2018-05-21 19:14:55 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:14:55 --> Model Class Initialized
+INFO - 2018-05-21 19:14:55 --> Model Class Initialized
+INFO - 2018-05-21 19:14:55 --> Model Class Initialized
+INFO - 2018-05-21 19:14:55 --> Model Class Initialized
+INFO - 2018-05-21 19:14:55 --> Final output sent to browser
+DEBUG - 2018-05-21 19:14:55 --> Total execution time: 0.5247
+INFO - 2018-05-21 19:15:01 --> Config Class Initialized
+INFO - 2018-05-21 19:15:01 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:15:01 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:15:01 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:15:01 --> URI Class Initialized
+INFO - 2018-05-21 19:15:01 --> Router Class Initialized
+INFO - 2018-05-21 19:15:01 --> Output Class Initialized
+INFO - 2018-05-21 19:15:01 --> Security Class Initialized
+DEBUG - 2018-05-21 19:15:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:15:01 --> CSRF cookie sent
+INFO - 2018-05-21 19:15:01 --> Input Class Initialized
+INFO - 2018-05-21 19:15:01 --> Language Class Initialized
+INFO - 2018-05-21 19:15:01 --> Loader Class Initialized
+INFO - 2018-05-21 19:15:01 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:15:01 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:15:01 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:15:01 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:15:01 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:15:01 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:15:01 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:15:01 --> Controller Class Initialized
+INFO - 2018-05-21 19:15:01 --> Model Class Initialized
+INFO - 2018-05-21 19:15:01 --> Helper loaded: general_helper
+INFO - 2018-05-21 19:15:02 --> Model Class Initialized
+INFO - 2018-05-21 19:15:02 --> Final output sent to browser
+DEBUG - 2018-05-21 19:15:02 --> Total execution time: 0.6289
+INFO - 2018-05-21 19:21:12 --> Config Class Initialized
+INFO - 2018-05-21 19:21:12 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:21:12 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:21:12 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:21:12 --> URI Class Initialized
+INFO - 2018-05-21 19:21:13 --> Router Class Initialized
+INFO - 2018-05-21 19:21:13 --> Output Class Initialized
+INFO - 2018-05-21 19:21:13 --> Security Class Initialized
+DEBUG - 2018-05-21 19:21:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:21:13 --> CSRF cookie sent
+INFO - 2018-05-21 19:21:13 --> Input Class Initialized
+INFO - 2018-05-21 19:21:13 --> Language Class Initialized
+INFO - 2018-05-21 19:21:13 --> Loader Class Initialized
+INFO - 2018-05-21 19:21:13 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:21:13 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:21:13 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:21:13 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:21:13 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:21:13 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:21:13 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:21:13 --> Controller Class Initialized
+INFO - 2018-05-21 19:21:13 --> Model Class Initialized
+INFO - 2018-05-21 19:21:13 --> Helper loaded: general_helper
+INFO - 2018-05-21 19:21:13 --> Model Class Initialized
+INFO - 2018-05-21 19:21:13 --> Final output sent to browser
+DEBUG - 2018-05-21 19:21:13 --> Total execution time: 0.7370
+INFO - 2018-05-21 19:21:17 --> Config Class Initialized
+INFO - 2018-05-21 19:21:17 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:21:17 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:21:17 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:21:17 --> URI Class Initialized
+INFO - 2018-05-21 19:21:17 --> Router Class Initialized
+INFO - 2018-05-21 19:21:17 --> Output Class Initialized
+INFO - 2018-05-21 19:21:17 --> Security Class Initialized
+DEBUG - 2018-05-21 19:21:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:21:17 --> CSRF cookie sent
+INFO - 2018-05-21 19:21:17 --> Input Class Initialized
+INFO - 2018-05-21 19:21:17 --> Language Class Initialized
+INFO - 2018-05-21 19:21:17 --> Loader Class Initialized
+INFO - 2018-05-21 19:21:17 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:21:17 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:21:17 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:21:17 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:21:17 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:21:17 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:21:17 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:21:17 --> Controller Class Initialized
+INFO - 2018-05-21 19:21:17 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:21:17 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:21:17 --> Model Class Initialized
+INFO - 2018-05-21 19:21:17 --> Model Class Initialized
+INFO - 2018-05-21 19:21:17 --> Model Class Initialized
+INFO - 2018-05-21 19:21:17 --> Model Class Initialized
+INFO - 2018-05-21 19:21:17 --> Model Class Initialized
+INFO - 2018-05-21 19:21:17 --> Model Class Initialized
+INFO - 2018-05-21 19:21:17 --> Model Class Initialized
+INFO - 2018-05-21 19:21:17 --> Model Class Initialized
+INFO - 2018-05-21 19:21:17 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/header.php
+INFO - 2018-05-21 19:21:17 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/calendar.php
+INFO - 2018-05-21 19:21:17 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/footer.php
+INFO - 2018-05-21 19:21:17 --> Final output sent to browser
+DEBUG - 2018-05-21 19:21:17 --> Total execution time: 0.5370
+INFO - 2018-05-21 19:21:18 --> Config Class Initialized
+INFO - 2018-05-21 19:21:18 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:21:18 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:21:18 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:21:18 --> URI Class Initialized
+INFO - 2018-05-21 19:21:18 --> Router Class Initialized
+INFO - 2018-05-21 19:21:18 --> Config Class Initialized
+INFO - 2018-05-21 19:21:18 --> Hooks Class Initialized
+INFO - 2018-05-21 19:21:18 --> Output Class Initialized
+INFO - 2018-05-21 19:21:18 --> Security Class Initialized
+DEBUG - 2018-05-21 19:21:18 --> UTF-8 Support Enabled
+DEBUG - 2018-05-21 19:21:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:21:18 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:21:18 --> CSRF cookie sent
+INFO - 2018-05-21 19:21:18 --> CSRF token verified
+INFO - 2018-05-21 19:21:18 --> URI Class Initialized
+INFO - 2018-05-21 19:21:18 --> Input Class Initialized
+INFO - 2018-05-21 19:21:18 --> Router Class Initialized
+INFO - 2018-05-21 19:21:18 --> Language Class Initialized
+INFO - 2018-05-21 19:21:18 --> Output Class Initialized
+INFO - 2018-05-21 19:21:18 --> Security Class Initialized
+INFO - 2018-05-21 19:21:18 --> Loader Class Initialized
+DEBUG - 2018-05-21 19:21:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:21:18 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:21:18 --> CSRF cookie sent
+INFO - 2018-05-21 19:21:18 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:21:18 --> CSRF token verified
+INFO - 2018-05-21 19:21:18 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:21:18 --> Input Class Initialized
+INFO - 2018-05-21 19:21:18 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:21:18 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:21:18 --> Language Class Initialized
+INFO - 2018-05-21 19:21:18 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:21:18 --> Loader Class Initialized
+INFO - 2018-05-21 19:21:18 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:21:18 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:21:18 --> Controller Class Initialized
+INFO - 2018-05-21 19:21:18 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:21:18 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:21:18 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:21:18 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:21:18 --> Model Class Initialized
+INFO - 2018-05-21 19:21:18 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:21:18 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:21:18 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:21:18 --> Model Class Initialized
+INFO - 2018-05-21 19:21:18 --> Model Class Initialized
+INFO - 2018-05-21 19:21:18 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:21:18 --> Model Class Initialized
+INFO - 2018-05-21 19:21:18 --> Controller Class Initialized
+INFO - 2018-05-21 19:21:18 --> Model Class Initialized
+INFO - 2018-05-21 19:21:18 --> Final output sent to browser
+INFO - 2018-05-21 19:21:18 --> Config Class Initialized
+INFO - 2018-05-21 19:21:18 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:21:18 --> Total execution time: 0.7385
+INFO - 2018-05-21 19:21:18 --> Session: Class initialized using 'files' driver.
+DEBUG - 2018-05-21 19:21:18 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:21:18 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:21:18 --> Model Class Initialized
+INFO - 2018-05-21 19:21:18 --> URI Class Initialized
+INFO - 2018-05-21 19:21:18 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:21:18 --> Model Class Initialized
+INFO - 2018-05-21 19:21:18 --> Router Class Initialized
+INFO - 2018-05-21 19:21:18 --> Model Class Initialized
+INFO - 2018-05-21 19:21:18 --> Output Class Initialized
+INFO - 2018-05-21 19:21:18 --> Model Class Initialized
+INFO - 2018-05-21 19:21:18 --> Security Class Initialized
+INFO - 2018-05-21 19:21:19 --> Model Class Initialized
+DEBUG - 2018-05-21 19:21:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:21:19 --> Final output sent to browser
+DEBUG - 2018-05-21 19:21:19 --> Total execution time: 0.8439
+INFO - 2018-05-21 19:21:19 --> CSRF cookie sent
+INFO - 2018-05-21 19:21:19 --> Input Class Initialized
+INFO - 2018-05-21 19:21:19 --> Language Class Initialized
+INFO - 2018-05-21 19:21:19 --> Loader Class Initialized
+INFO - 2018-05-21 19:21:19 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:21:19 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:21:19 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:21:19 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:21:19 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:21:19 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:21:19 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:21:19 --> Controller Class Initialized
+INFO - 2018-05-21 19:21:19 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:21:19 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:21:19 --> Model Class Initialized
+INFO - 2018-05-21 19:21:19 --> Model Class Initialized
+INFO - 2018-05-21 19:21:19 --> Model Class Initialized
+INFO - 2018-05-21 19:21:19 --> Model Class Initialized
+INFO - 2018-05-21 19:21:19 --> Model Class Initialized
+INFO - 2018-05-21 19:21:19 --> Model Class Initialized
+INFO - 2018-05-21 19:21:19 --> Model Class Initialized
+INFO - 2018-05-21 19:21:19 --> Model Class Initialized
+INFO - 2018-05-21 19:21:19 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/header.php
+INFO - 2018-05-21 19:21:19 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/calendar.php
+INFO - 2018-05-21 19:21:19 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/footer.php
+INFO - 2018-05-21 19:21:19 --> Final output sent to browser
+DEBUG - 2018-05-21 19:21:19 --> Total execution time: 0.7476
+INFO - 2018-05-21 19:21:22 --> Config Class Initialized
+INFO - 2018-05-21 19:21:22 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:21:22 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:21:22 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:21:22 --> URI Class Initialized
+INFO - 2018-05-21 19:21:22 --> Router Class Initialized
+INFO - 2018-05-21 19:21:22 --> Output Class Initialized
+INFO - 2018-05-21 19:21:22 --> Config Class Initialized
+INFO - 2018-05-21 19:21:22 --> Hooks Class Initialized
+INFO - 2018-05-21 19:21:22 --> Security Class Initialized
+DEBUG - 2018-05-21 19:21:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-21 19:21:22 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:21:22 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:21:22 --> CSRF cookie sent
+INFO - 2018-05-21 19:21:22 --> CSRF token verified
+INFO - 2018-05-21 19:21:22 --> URI Class Initialized
+INFO - 2018-05-21 19:21:22 --> Input Class Initialized
+INFO - 2018-05-21 19:21:22 --> Router Class Initialized
+INFO - 2018-05-21 19:21:22 --> Language Class Initialized
+INFO - 2018-05-21 19:21:22 --> Output Class Initialized
+INFO - 2018-05-21 19:21:22 --> Security Class Initialized
+INFO - 2018-05-21 19:21:22 --> Loader Class Initialized
+INFO - 2018-05-21 19:21:22 --> Helper loaded: custom_exceptions_helper
+DEBUG - 2018-05-21 19:21:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:21:22 --> CSRF cookie sent
+INFO - 2018-05-21 19:21:22 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:21:22 --> CSRF token verified
+INFO - 2018-05-21 19:21:22 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:21:22 --> Input Class Initialized
+INFO - 2018-05-21 19:21:22 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:21:22 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:21:22 --> Language Class Initialized
+INFO - 2018-05-21 19:21:22 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:21:22 --> Loader Class Initialized
+INFO - 2018-05-21 19:21:22 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:21:22 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:21:22 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:21:22 --> Controller Class Initialized
+INFO - 2018-05-21 19:21:22 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:21:22 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:21:22 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:21:22 --> Model Class Initialized
+INFO - 2018-05-21 19:21:22 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:21:22 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:21:22 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:21:22 --> Model Class Initialized
+INFO - 2018-05-21 19:21:22 --> Model Class Initialized
+INFO - 2018-05-21 19:21:22 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:21:23 --> Controller Class Initialized
+INFO - 2018-05-21 19:21:23 --> Model Class Initialized
+INFO - 2018-05-21 19:21:23 --> Model Class Initialized
+INFO - 2018-05-21 19:21:23 --> Final output sent to browser
+DEBUG - 2018-05-21 19:21:23 --> Total execution time: 0.5671
+INFO - 2018-05-21 19:21:23 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:21:23 --> Model Class Initialized
+INFO - 2018-05-21 19:21:23 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:21:23 --> Model Class Initialized
+INFO - 2018-05-21 19:21:23 --> Model Class Initialized
+INFO - 2018-05-21 19:21:23 --> Model Class Initialized
+INFO - 2018-05-21 19:21:23 --> Model Class Initialized
+INFO - 2018-05-21 19:21:23 --> Final output sent to browser
+DEBUG - 2018-05-21 19:21:23 --> Total execution time: 0.6016
+INFO - 2018-05-21 19:23:53 --> Config Class Initialized
+INFO - 2018-05-21 19:23:53 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:23:53 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:23:53 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:23:53 --> URI Class Initialized
+INFO - 2018-05-21 19:23:53 --> Router Class Initialized
+INFO - 2018-05-21 19:23:53 --> Output Class Initialized
+INFO - 2018-05-21 19:23:54 --> Security Class Initialized
+DEBUG - 2018-05-21 19:23:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:23:54 --> CSRF cookie sent
+INFO - 2018-05-21 19:23:54 --> Input Class Initialized
+INFO - 2018-05-21 19:23:54 --> Language Class Initialized
+INFO - 2018-05-21 19:23:54 --> Loader Class Initialized
+INFO - 2018-05-21 19:23:54 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:23:54 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:23:54 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:23:54 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:23:54 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:23:54 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:23:54 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:23:54 --> Controller Class Initialized
+INFO - 2018-05-21 19:23:54 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:23:54 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:23:54 --> Model Class Initialized
+INFO - 2018-05-21 19:23:54 --> Model Class Initialized
+INFO - 2018-05-21 19:23:54 --> Model Class Initialized
+INFO - 2018-05-21 19:23:54 --> Model Class Initialized
+INFO - 2018-05-21 19:23:54 --> Model Class Initialized
+INFO - 2018-05-21 19:23:54 --> Model Class Initialized
+INFO - 2018-05-21 19:23:54 --> Model Class Initialized
+INFO - 2018-05-21 19:23:54 --> Model Class Initialized
+INFO - 2018-05-21 19:23:54 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/header.php
+INFO - 2018-05-21 19:23:54 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/calendar.php
+INFO - 2018-05-21 19:23:54 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/footer.php
+INFO - 2018-05-21 19:23:54 --> Final output sent to browser
+DEBUG - 2018-05-21 19:23:54 --> Total execution time: 0.7022
+INFO - 2018-05-21 19:23:55 --> Config Class Initialized
+INFO - 2018-05-21 19:23:55 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:23:55 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:23:55 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:23:55 --> URI Class Initialized
+INFO - 2018-05-21 19:23:55 --> Router Class Initialized
+INFO - 2018-05-21 19:23:55 --> Output Class Initialized
+INFO - 2018-05-21 19:23:55 --> Security Class Initialized
+INFO - 2018-05-21 19:23:55 --> Config Class Initialized
+INFO - 2018-05-21 19:23:55 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:23:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:23:55 --> CSRF cookie sent
+DEBUG - 2018-05-21 19:23:55 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:23:55 --> CSRF token verified
+INFO - 2018-05-21 19:23:55 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:23:55 --> Input Class Initialized
+INFO - 2018-05-21 19:23:55 --> Language Class Initialized
+INFO - 2018-05-21 19:23:55 --> URI Class Initialized
+INFO - 2018-05-21 19:23:55 --> Router Class Initialized
+INFO - 2018-05-21 19:23:55 --> Loader Class Initialized
+INFO - 2018-05-21 19:23:55 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:23:55 --> Output Class Initialized
+INFO - 2018-05-21 19:23:55 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:23:55 --> Security Class Initialized
+INFO - 2018-05-21 19:23:55 --> Helper loaded: file_helper
+DEBUG - 2018-05-21 19:23:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:23:55 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:23:55 --> CSRF cookie sent
+INFO - 2018-05-21 19:23:55 --> CSRF token verified
+INFO - 2018-05-21 19:23:55 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:23:55 --> Input Class Initialized
+INFO - 2018-05-21 19:23:55 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:23:55 --> Language Class Initialized
+INFO - 2018-05-21 19:23:55 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:23:55 --> Controller Class Initialized
+INFO - 2018-05-21 19:23:55 --> Loader Class Initialized
+INFO - 2018-05-21 19:23:55 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:23:55 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:23:55 --> Model Class Initialized
+INFO - 2018-05-21 19:23:55 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:23:55 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:23:55 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:23:55 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:23:55 --> Model Class Initialized
+INFO - 2018-05-21 19:23:55 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:23:55 --> Model Class Initialized
+INFO - 2018-05-21 19:23:55 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:23:55 --> Model Class Initialized
+INFO - 2018-05-21 19:23:55 --> Model Class Initialized
+INFO - 2018-05-21 19:23:55 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:23:55 --> Controller Class Initialized
+INFO - 2018-05-21 19:23:55 --> Final output sent to browser
+DEBUG - 2018-05-21 19:23:55 --> Total execution time: 0.6134
+INFO - 2018-05-21 19:23:55 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:23:55 --> Model Class Initialized
+INFO - 2018-05-21 19:23:55 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:23:56 --> Model Class Initialized
+INFO - 2018-05-21 19:23:56 --> Model Class Initialized
+INFO - 2018-05-21 19:23:56 --> Model Class Initialized
+INFO - 2018-05-21 19:23:56 --> Model Class Initialized
+INFO - 2018-05-21 19:23:56 --> Final output sent to browser
+DEBUG - 2018-05-21 19:23:56 --> Total execution time: 0.6473
+INFO - 2018-05-21 19:32:34 --> Config Class Initialized
+INFO - 2018-05-21 19:32:34 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:32:34 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:32:34 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:32:34 --> URI Class Initialized
+INFO - 2018-05-21 19:32:34 --> Router Class Initialized
+INFO - 2018-05-21 19:32:34 --> Output Class Initialized
+INFO - 2018-05-21 19:32:34 --> Security Class Initialized
+DEBUG - 2018-05-21 19:32:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:32:34 --> CSRF cookie sent
+INFO - 2018-05-21 19:32:34 --> Input Class Initialized
+INFO - 2018-05-21 19:32:34 --> Language Class Initialized
+INFO - 2018-05-21 19:32:34 --> Loader Class Initialized
+INFO - 2018-05-21 19:32:34 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:32:34 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:32:34 --> Config Class Initialized
+INFO - 2018-05-21 19:32:34 --> Hooks Class Initialized
+INFO - 2018-05-21 19:32:34 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:32:34 --> Helper loaded: language_helper
+DEBUG - 2018-05-21 19:32:34 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:32:34 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:32:34 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:32:34 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:32:34 --> URI Class Initialized
+INFO - 2018-05-21 19:32:34 --> Router Class Initialized
+INFO - 2018-05-21 19:32:34 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:32:34 --> Output Class Initialized
+INFO - 2018-05-21 19:32:34 --> Controller Class Initialized
+INFO - 2018-05-21 19:32:34 --> Security Class Initialized
+INFO - 2018-05-21 19:32:34 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:32:34 --> Language file loaded: language/english/translations_lang.php
+DEBUG - 2018-05-21 19:32:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:32:34 --> CSRF cookie sent
+INFO - 2018-05-21 19:32:35 --> Input Class Initialized
+INFO - 2018-05-21 19:32:35 --> Language Class Initialized
+INFO - 2018-05-21 19:32:35 --> Loader Class Initialized
+INFO - 2018-05-21 19:32:35 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:32:35 --> Config Class Initialized
+INFO - 2018-05-21 19:32:35 --> Hooks Class Initialized
+INFO - 2018-05-21 19:32:35 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+DEBUG - 2018-05-21 19:32:35 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:32:35 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> URI Class Initialized
+INFO - 2018-05-21 19:32:35 --> Controller Class Initialized
+INFO - 2018-05-21 19:32:35 --> Router Class Initialized
+INFO - 2018-05-21 19:32:35 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:32:35 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:32:35 --> Output Class Initialized
+INFO - 2018-05-21 19:32:35 --> Security Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+DEBUG - 2018-05-21 19:32:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:32:35 --> CSRF cookie sent
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Input Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Language Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Loader Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:32:35 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:32:35 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:32:35 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:32:35 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/header.php
+INFO - 2018-05-21 19:32:35 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/header.php
+INFO - 2018-05-21 19:32:35 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:32:35 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/calendar.php
+INFO - 2018-05-21 19:32:35 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/calendar.php
+INFO - 2018-05-21 19:32:35 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/footer.php
+INFO - 2018-05-21 19:32:35 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/footer.php
+INFO - 2018-05-21 19:32:35 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:32:35 --> Final output sent to browser
+INFO - 2018-05-21 19:32:35 --> Final output sent to browser
+INFO - 2018-05-21 19:32:35 --> Controller Class Initialized
+DEBUG - 2018-05-21 19:32:35 --> Total execution time: 0.7696
+DEBUG - 2018-05-21 19:32:35 --> Total execution time: 0.5373
+INFO - 2018-05-21 19:32:35 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:32:35 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> Model Class Initialized
+INFO - 2018-05-21 19:32:35 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/header.php
+INFO - 2018-05-21 19:32:35 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/calendar.php
+INFO - 2018-05-21 19:32:35 --> File loaded: E:\xampp\htdocs\easyappointments\application\views\backend/footer.php
+INFO - 2018-05-21 19:32:35 --> Final output sent to browser
+DEBUG - 2018-05-21 19:32:35 --> Total execution time: 0.5819
+INFO - 2018-05-21 19:32:57 --> Config Class Initialized
+INFO - 2018-05-21 19:32:57 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:32:57 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:32:57 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:32:57 --> URI Class Initialized
+INFO - 2018-05-21 19:32:57 --> Router Class Initialized
+INFO - 2018-05-21 19:32:57 --> Output Class Initialized
+INFO - 2018-05-21 19:32:57 --> Security Class Initialized
+INFO - 2018-05-21 19:32:57 --> Config Class Initialized
+INFO - 2018-05-21 19:32:57 --> Hooks Class Initialized
+DEBUG - 2018-05-21 19:32:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:32:57 --> CSRF cookie sent
+DEBUG - 2018-05-21 19:32:57 --> UTF-8 Support Enabled
+INFO - 2018-05-21 19:32:57 --> CSRF token verified
+INFO - 2018-05-21 19:32:57 --> Utf8 Class Initialized
+INFO - 2018-05-21 19:32:57 --> Input Class Initialized
+INFO - 2018-05-21 19:32:57 --> Language Class Initialized
+INFO - 2018-05-21 19:32:57 --> URI Class Initialized
+INFO - 2018-05-21 19:32:57 --> Router Class Initialized
+INFO - 2018-05-21 19:32:57 --> Loader Class Initialized
+INFO - 2018-05-21 19:32:57 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:32:57 --> Output Class Initialized
+INFO - 2018-05-21 19:32:57 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:32:57 --> Security Class Initialized
+INFO - 2018-05-21 19:32:58 --> Helper loaded: file_helper
+DEBUG - 2018-05-21 19:32:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 19:32:58 --> CSRF cookie sent
+INFO - 2018-05-21 19:32:58 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:32:58 --> CSRF token verified
+INFO - 2018-05-21 19:32:58 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:32:58 --> Input Class Initialized
+INFO - 2018-05-21 19:32:58 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:32:58 --> Language Class Initialized
+INFO - 2018-05-21 19:32:58 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:32:58 --> Controller Class Initialized
+INFO - 2018-05-21 19:32:58 --> Loader Class Initialized
+INFO - 2018-05-21 19:32:58 --> Helper loaded: custom_exceptions_helper
+INFO - 2018-05-21 19:32:58 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:32:58 --> Model Class Initialized
+INFO - 2018-05-21 19:32:58 --> Helper loaded: url_helper
+INFO - 2018-05-21 19:32:58 --> Helper loaded: file_helper
+INFO - 2018-05-21 19:32:58 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:32:58 --> Helper loaded: language_helper
+INFO - 2018-05-21 19:32:58 --> Model Class Initialized
+INFO - 2018-05-21 19:32:58 --> Helper loaded: asset_helper
+INFO - 2018-05-21 19:32:58 --> Model Class Initialized
+INFO - 2018-05-21 19:32:58 --> Helper loaded: config_helper
+INFO - 2018-05-21 19:32:58 --> Model Class Initialized
+INFO - 2018-05-21 19:32:58 --> Model Class Initialized
+INFO - 2018-05-21 19:32:58 --> Database Driver Class Initialized
+INFO - 2018-05-21 19:32:58 --> Controller Class Initialized
+INFO - 2018-05-21 19:32:58 --> Final output sent to browser
+DEBUG - 2018-05-21 19:32:58 --> Total execution time: 0.6359
+INFO - 2018-05-21 19:32:58 --> Session: Class initialized using 'files' driver.
+INFO - 2018-05-21 19:32:58 --> Model Class Initialized
+INFO - 2018-05-21 19:32:58 --> Language file loaded: language/english/translations_lang.php
+INFO - 2018-05-21 19:32:58 --> Model Class Initialized
+INFO - 2018-05-21 19:32:58 --> Model Class Initialized
+INFO - 2018-05-21 19:32:58 --> Model Class Initialized
+INFO - 2018-05-21 19:32:58 --> Model Class Initialized
+INFO - 2018-05-21 19:32:58 --> Final output sent to browser
+DEBUG - 2018-05-21 19:32:58 --> Total execution time: 0.6609
