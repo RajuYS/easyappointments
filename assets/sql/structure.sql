@@ -189,3 +189,5 @@ ALTER TABLE `ea_user_settings`
     ON DELETE CASCADE
     ON UPDATE CASCADE;
 
+ALTER TABLE `ea_appointments` ADD `status` INT NOT NULL DEFAULT '1' AFTER `id_google_calendar`;
+
