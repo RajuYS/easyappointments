@@ -1190,6 +1190,11 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
                     + '</option>';
             });
 
+            optgroupHtml +=
+                '<option value="' + 'All'+ '" type="' + FILTER_TYPE_PROVIDER + '" '
+                +  '">'
+                + 'All'
+                + '</option>';
             optgroupHtml += '</optgroup>';
 
             $('#select-filter-item').append(optgroupHtml);
