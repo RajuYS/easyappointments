@@ -64,7 +64,6 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
 
             if (lastFocusedEventData.data.is_unavailable == false) {
                 var appointment = lastFocusedEventData.data;
-                //console.log("Appointment Data is:"+appointment.status);
                 $dialog = $('#manage-appointment');
 
                 BackendCalendarAppointmentsModal.resetAppointmentDialog();
@@ -305,17 +304,17 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
                 '<button class="close-popover btn btn-default" data-po=' + jsEvent.target + '>' + EALang.close + '</button>' +
                 '</center>';
         } else {
-            var st=null;
-            if(event.data.status==1)
-            st='Registered';
-            if(event.data.status==2)
-                st='Checked in';
-            if(event.data.status==3)
-                st='Finished';
-            if(event.data.status==4)
-                st='Won\'t Come';
-            if(event.data.status==5)
-                st='Cancelled';
+            var st = null;
+            if (event.data.status == 1)
+                st = 'Registered';
+            if (event.data.status == 2)
+                st = 'Checked in';
+            if (event.data.status == 3)
+                st = 'Finished';
+            if (event.data.status == 4)
+                st = 'Won\'t Come';
+            if (event.data.status == 5)
+                st = 'Cancelled';
             displayEdit = (GlobalVariables.user.privileges.appointments.edit == true)
                 ? '' : 'hide';
             displayDelete = (GlobalVariables.user.privileges.appointments.delete == true)
@@ -719,6 +718,15 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
             return;
         }
 
+        $.each($('#calendar').fullCalendar('getResources'), function (index, calres) {
+            if ($('#select-filter-item').val() != calres.id) {
+                if ($('#select-filter-item').val() != 'All') {
+                    $('#calendar').fullCalendar('removeResource', calres);
+                }
+
+            }
+        });
+
         _refreshCalendarAppointments(
             $('#calendar'),
             $('#select-filter-item').val(),
@@ -784,12 +792,18 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
             }
 
             // Add appointments to calendar.
+            var calendarRs = [];
             var calendarEvents = [];
             var $calendar = $('#calendar');
 
             $.each(response.appointments, function (index, appointment) {
+                var resource = {
+                    id: appointment.provider.id,
+                    title: appointment.provider.first_name,
+                };
                 var event = {
                     id: appointment.id,
+                    resourceId: appointment.provider.id,
                     title: appointment.service.name + ' - '
                     + appointment.customer.first_name + ' '
                     + appointment.customer.last_name,
@@ -798,8 +812,12 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
                     allDay: false,
                     data: appointment // Store appointment data for later use.
                 };
-
+                calendarRs.push(resource);
                 calendarEvents.push(event);
+            });
+
+            $.each(calendarRs, function (index, calres) {
+                $calendar.fullCalendar('addResource', calres);
             });
 
             $calendar.fullCalendar('removeEvents');
@@ -1061,6 +1079,7 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
 
 
     exports.initialize = function () {
+
         // Dynamic date formats.
         var columnFormat = {};
 
@@ -1162,7 +1181,13 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
                 week: EALang.week,
                 month: EALang.month
             },
-
+            schedulerLicenseKey: 'GPL-My-Project-Is-Open-Source',
+            resources: [
+                {
+                    id: '002',
+                    title: 'John',
+                }
+            ],
             // Calendar events need to be declared on initialization.
             windowResize: _calendarWindowResize,
             viewRender: _calendarViewRender,
@@ -1191,8 +1216,8 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
             });
 
             optgroupHtml +=
-                '<option value="' + 'All'+ '" type="' + FILTER_TYPE_PROVIDER + '" '
-                +  '">'
+                '<option value="' + 'All' + '" type="' + FILTER_TYPE_PROVIDER + '" '
+                + '">'
                 + 'All'
                 + '</option>';
             optgroupHtml += '</optgroup>';
@@ -1256,7 +1281,6 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
         if (GlobalVariables.editAppointment != null) {
             var $dialog = $('#manage-appointment');
             var appointment = GlobalVariables.editAppointment;
-            console.log("value is :"+appointment.notes);
             BackendCalendarAppointmentsModal.resetAppointmentDialog();
 
             $dialog.find('.modal-header h3').text(EALang.edit_appointment_title);

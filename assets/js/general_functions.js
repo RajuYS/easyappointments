@@ -268,7 +268,7 @@ window.GeneralFunctions = window.GeneralFunctions || {};
      * @return {Array} Returns the parsed js objects.
      */
     exports.parseExceptions = function (exceptions) {
-        var parsedExceptions = new Array();
+        var parsedExceptions = [];
 
         $.each(exceptions, function (index, exception) {
             parsedExceptions.push($.parseJSON(exception));

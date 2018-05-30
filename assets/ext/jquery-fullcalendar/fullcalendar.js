@@ -16,9 +16,7 @@
 	}
 })(function($, moment) {
 
-;;
-
-var FC = $.fullCalendar = {
+    var FC = $.fullCalendar = {
 	version: "3.6.1",
 	// When introducing internal API incompatibilities (where fullcalendar plugins would break),
 	// the minor version of the calendar should be upped (ex: 2.7.2 -> 2.8.0)
@@ -93,8 +91,6 @@ var complexOptions = [ // names of options that are objects whose properties sho
 function mergeOptions(optionObjs) {
 	return mergeProps(optionObjs, complexOptions);
 }
-
-;;
 
 // exports
 FC.applyAll = applyAll;
@@ -1034,14 +1030,12 @@ function debounce(func, wait, immediate) {
 	};
 }
 
-;;
-
-/*
-GENERAL NOTE on moments throughout the *entire rest* of the codebase:
-All moments are assumed to be ambiguously-zoned unless otherwise noted,
-with the NOTABLE EXCEOPTION of start/end dates that live on *Event Objects*.
-Ambiguously-TIMED moments are assumed to be ambiguously-zoned by nature.
-*/
+    /*
+    GENERAL NOTE on moments throughout the *entire rest* of the codebase:
+    All moments are assumed to be ambiguously-zoned unless otherwise noted,
+    with the NOTABLE EXCEOPTION of start/end dates that live on *Event Objects*.
+    Ambiguously-TIMED moments are assumed to be ambiguously-zoned by nature.
+    */
 
 var ambigDateOfMonthRegex = /^\s*\d{4}-\d\d$/;
 var ambigTimeOrZoneRegex =
@@ -1376,8 +1370,7 @@ function englishMoment(mom) {
 	return mom;
 }
 
-;;
-(function() {
+    (function() {
 
 // exports
 FC.formatDate = formatDate;
@@ -1785,8 +1778,7 @@ function queryMostGranularFormatUnit(formatStr) {
 	}
 
 	return null;
-};
-
+}
 })();
 
 // quick local references
@@ -1794,9 +1786,7 @@ var formatDate = FC.formatDate;
 var formatRange = FC.formatRange;
 var oldMomentFormat = FC.oldMomentFormat;
 
-;;
-
-FC.Class = Class; // export
+    FC.Class = Class; // export
 
 // Class that all other classes will inherit from
 function Class() { }
@@ -1848,9 +1838,7 @@ function extendClass(superClass, members) {
 	return subClass;
 }
 
-;;
-
-var EmitterMixin = FC.EmitterMixin = {
+    var EmitterMixin = FC.EmitterMixin = {
 
 	// jQuery-ification via $(this) allows a non-DOM object to have
 	// the same event handling capabilities (including namespaces).
@@ -1927,12 +1915,10 @@ var EmitterMixin = FC.EmitterMixin = {
 
 };
 
-;;
-
-/*
-Utility methods for easily listening to events on another object,
-and more importantly, easily unlistening from them.
-*/
+    /*
+    Utility methods for easily listening to events on another object,
+    and more importantly, easily unlistening from them.
+    */
 var ListenerMixin = FC.ListenerMixin = (function() {
 	var guid = 0;
 	var ListenerMixin = {
@@ -1989,9 +1975,7 @@ var ListenerMixin = FC.ListenerMixin = (function() {
 	};
 	return ListenerMixin;
 })();
-;;
-
-var ParsableModelMixin = {
+    var ParsableModelMixin = {
 
 	standardPropMap: {}, // will be cloned by defineStandardProps
 
@@ -2082,9 +2066,7 @@ var ParsableModelMixin_copyVerbatimStandardProps = function(src, dest) {
 	}
 };
 
-;;
-
-var Model = Class.extend(EmitterMixin, ListenerMixin, {
+    var Model = Class.extend(EmitterMixin, ListenerMixin, {
 
 	_props: null,
 	_watchers: null,
@@ -2406,9 +2388,7 @@ Model.watch = function(name /* , depList, startFunc, stopFunc */) {
 FC.Model = Model;
 
 
-;;
-
-var Promise = {
+    var Promise = {
 
 	construct: function(executor) {
 		var deferred = $.Deferred();
@@ -2473,9 +2453,7 @@ function attachImmediatelyRejectingThen(promise) {
 
 FC.Promise = Promise;
 
-;;
-
-var TaskQueue = Class.extend(EmitterMixin, {
+    var TaskQueue = Class.extend(EmitterMixin, {
 
 	q: null,
 	isPaused: false,
@@ -2558,9 +2536,7 @@ var TaskQueue = Class.extend(EmitterMixin, {
 
 FC.TaskQueue = TaskQueue;
 
-;;
-
-var RenderQueue = TaskQueue.extend({
+    var RenderQueue = TaskQueue.extend({
 
 	waitsByNamespace: null,
 	waitNamespace: null,
@@ -2702,21 +2678,19 @@ var RenderQueue = TaskQueue.extend({
 
 FC.RenderQueue = RenderQueue;
 
-;;
-
-/* A rectangular panel that is absolutely positioned over other content
-------------------------------------------------------------------------------------------------------------------------
-Options:
-	- className (string)
-	- content (HTML string or jQuery element set)
-	- parentEl
-	- top
-	- left
-	- right (the x coord of where the right edge should be. not a "CSS" right)
-	- autoHide (boolean)
-	- show (callback)
-	- hide (callback)
-*/
+    /* A rectangular panel that is absolutely positioned over other content
+    ------------------------------------------------------------------------------------------------------------------------
+    Options:
+        - className (string)
+        - content (HTML string or jQuery element set)
+        - parentEl
+        - top
+        - left
+        - right (the x coord of where the right edge should be. not a "CSS" right)
+        - autoHide (boolean)
+        - show (callback)
+        - hide (callback)
+    */
 
 var Popover = Class.extend(ListenerMixin, {
 
@@ -2870,17 +2844,15 @@ var Popover = Class.extend(ListenerMixin, {
 
 });
 
-;;
+    /*
+    A cache for the left/right/top/bottom/width/height values for one or more elements.
+    Works with both offset (from topleft document) and position (from offsetParent).
 
-/*
-A cache for the left/right/top/bottom/width/height values for one or more elements.
-Works with both offset (from topleft document) and position (from offsetParent).
-
-options:
-- els
-- isHorizontal
-- isVertical
-*/
+    options:
+    - els
+    - isHorizontal
+    - isVertical
+    */
 var CoordCache = FC.CoordCache = Class.extend({
 
 	els: null, // jQuery set (assumed to be siblings)
@@ -3128,10 +3100,8 @@ var CoordCache = FC.CoordCache = Class.extend({
 
 });
 
-;;
-
-/* Tracks a drag's mouse movement, firing various handlers
-----------------------------------------------------------------------------------------------------------------------*/
+    /* Tracks a drag's mouse movement, firing various handlers
+    ----------------------------------------------------------------------------------------------------------------------*/
 // TODO: use Emitter
 
 var DragListener = FC.DragListener = Class.extend(ListenerMixin, {
@@ -3440,10 +3410,9 @@ var DragListener = FC.DragListener = Class.extend(ListenerMixin, {
 
 });
 
-;;
-/*
-this.scrollEl is set in DragListener
-*/
+    /*
+    this.scrollEl is set in DragListener
+    */
 DragListener.mixin({
 
 	isAutoScroll: false,
@@ -3626,14 +3595,12 @@ DragListener.mixin({
 	}
 
 });
-;;
-
-/* Tracks mouse movements over a component and raises events about which hit the mouse is over.
-------------------------------------------------------------------------------------------------------------------------
-options:
-- subjectEl
-- subjectCenter
-*/
+    /* Tracks mouse movements over a component and raises events about which hit the mouse is over.
+    ------------------------------------------------------------------------------------------------------------------------
+    options:
+    - subjectEl
+    - subjectCenter
+    */
 
 var HitDragListener = DragListener.extend({
 
@@ -3839,17 +3806,15 @@ function isHitPropsWithin(subHit, superHit) {
 	return true;
 }
 
-;;
+    /*
+    Listens to document and window-level user-interaction events, like touch events and mouse events,
+    and fires these events as-is to whoever is observing a GlobalEmitter.
+    Best when used as a singleton via GlobalEmitter.get()
 
-/*
-Listens to document and window-level user-interaction events, like touch events and mouse events,
-and fires these events as-is to whoever is observing a GlobalEmitter.
-Best when used as a singleton via GlobalEmitter.get()
-
-Normalizes mouse/touch events. For examples:
-- ignores the the simulated mouse events that happen after a quick tap: mousemove+mousedown+mouseup+click
-- compensates for various buggy scenarios where a touchend does not fire
-*/
+    Normalizes mouse/touch events. For examples:
+    - ignores the the simulated mouse events that happen after a quick tap: mousemove+mousedown+mouseup+click
+    - compensates for various buggy scenarios where a touchend does not fire
+    */
 
 FC.touchMouseIgnoreWait = 500;
 
@@ -4064,10 +4029,8 @@ var GlobalEmitter = Class.extend(ListenerMixin, EmitterMixin, {
 
 })();
 
-;;
-
-/* Creates a clone of an element and lets it track the mouse as it moves
-----------------------------------------------------------------------------------------------------------------------*/
+    /* Creates a clone of an element and lets it track the mouse as it moves
+    ----------------------------------------------------------------------------------------------------------------------*/
 
 var MouseFollower = Class.extend(ListenerMixin, {
 
@@ -4258,11 +4221,9 @@ var MouseFollower = Class.extend(ListenerMixin, {
 
 });
 
-;;
-
-/*
-Embodies a div that has potential scrollbars
-*/
+    /*
+    Embodies a div that has potential scrollbars
+    */
 var Scroller = FC.Scroller = Class.extend({
 
 	el: null, // the guaranteed outer element
@@ -4379,8 +4340,7 @@ var Scroller = FC.Scroller = Class.extend({
 
 });
 
-;;
-function Iterator(items) {
+    function Iterator(items) {
     this.items = items || [];
 }
 
@@ -4397,9 +4357,7 @@ Iterator.prototype.proxyCall = function(methodName) {
     return results;
 };
 
-;;
-
-var Interaction = Class.extend({
+    var Interaction = Class.extend({
 
 	view: null,
 	component: null,
@@ -4422,9 +4380,7 @@ var Interaction = Class.extend({
 
 });
 
-;;
-
-var DateClicking = Interaction.extend({
+    var DateClicking = Interaction.extend({
 
 	dragListener: null,
 
@@ -4509,9 +4465,7 @@ var DateClicking = Interaction.extend({
 
 });
 
-;;
-
-var DateSelecting = FC.DateSelecting = Interaction.extend({
+    var DateSelecting = FC.DateSelecting = Interaction.extend({
 
 	dragListener: null,
 
@@ -4670,9 +4624,7 @@ var DateSelecting = FC.DateSelecting = Interaction.extend({
 
 });
 
-;;
-
-var EventDragging = FC.EventDragging = Interaction.extend({
+    var EventDragging = FC.EventDragging = Interaction.extend({
 
 	eventPointing: null,
 	dragListener: null,
@@ -5002,9 +4954,7 @@ var EventDragging = FC.EventDragging = Interaction.extend({
 
 });
 
-;;
-
-var EventResizing = FC.EventResizing = Interaction.extend({
+    var EventResizing = FC.EventResizing = Interaction.extend({
 
 	eventPointing: null,
 	dragListener: null,
@@ -5241,9 +5191,7 @@ var EventResizing = FC.EventResizing = Interaction.extend({
 
 });
 
-;;
-
-var ExternalDropping = FC.ExternalDropping = Interaction.extend(ListenerMixin, {
+    var ExternalDropping = FC.ExternalDropping = Interaction.extend(ListenerMixin, {
 
 	dragListener: null,
 	isDragging: false, // jqui-dragging an external element? boolean
@@ -5474,9 +5422,7 @@ function getDraggedElMeta(el) {
 	return { eventProps: eventProps, startTime: startTime, duration: duration, stick: stick };
 }
 
-;;
-
-var EventPointing = FC.EventPointing = Interaction.extend({
+    var EventPointing = FC.EventPointing = Interaction.extend({
 
 	mousedOverSeg: null, // the segment object the user's mouse is over. null if over nothing
 
@@ -5560,9 +5506,7 @@ var EventPointing = FC.EventPointing = Interaction.extend({
 
 });
 
-;;
-
-var StandardInteractionsMixin = FC.StandardInteractionsMixin = {
+    var StandardInteractionsMixin = FC.StandardInteractionsMixin = {
 	dateClickingClass: DateClicking,
 	dateSelectingClass: DateSelecting,
 	eventPointingClass: EventPointing,
@@ -5571,9 +5515,7 @@ var StandardInteractionsMixin = FC.StandardInteractionsMixin = {
 	externalDroppingClass: ExternalDropping
 };
 
-;;
-
-var EventRenderer = FC.EventRenderer = Class.extend({
+    var EventRenderer = FC.EventRenderer = Class.extend({
 
 	view: null,
 	component: null,
@@ -6023,9 +5965,7 @@ var EventRenderer = FC.EventRenderer = Class.extend({
 
 });
 
-;;
-
-var BusinessHourRenderer = FC.BusinessHourRenderer = Class.extend({
+    var BusinessHourRenderer = FC.BusinessHourRenderer = Class.extend({
 
 	component: null,
 	fillRenderer: null,
@@ -6096,9 +6036,7 @@ var BusinessHourRenderer = FC.BusinessHourRenderer = Class.extend({
 
 });
 
-;;
-
-var FillRenderer = FC.FillRenderer = Class.extend({ // use for highlight, background events, business hours
+    var FillRenderer = FC.FillRenderer = Class.extend({ // use for highlight, background events, business hours
 
 	fillSegTag: 'div',
 	component: null,
@@ -6217,9 +6155,7 @@ var FillRenderer = FC.FillRenderer = Class.extend({ // use for highlight, backgr
 
 });
 
-;;
-
-var HelperRenderer = FC.HelperRenderer = Class.extend({
+    var HelperRenderer = FC.HelperRenderer = Class.extend({
 
 	view: null,
 	component: null,
@@ -6312,9 +6248,7 @@ var HelperRenderer = FC.HelperRenderer = Class.extend({
 
 });
 
-;;
-
-var Component = Model.extend({
+    var Component = Model.extend({
 
 	el: null,
 
@@ -6365,9 +6299,7 @@ var Component = Model.extend({
 
 });
 
-;;
-
-var DateComponent = FC.DateComponent = Component.extend({
+    var DateComponent = FC.DateComponent = Component.extend({
 
 	uid: null,
 	childrenByUid: null,
@@ -7028,9 +6960,7 @@ function convertEventsPayloadToLegacyArray(eventsPayload) {
 	return legacyEvents;
 }
 
-;;
-
-DateComponent.mixin({
+    DateComponent.mixin({
 
 	// Generates HTML for an anchor to another view into the calendar.
 	// Will either generate an <a> tag or a non-clickable <span> tag, depending on enabled settings.
@@ -7176,9 +7106,7 @@ DateComponent.mixin({
 
 });
 
-;;
-
-var InteractiveDateComponent = FC.InteractiveDateComponent = DateComponent.extend({
+    var InteractiveDateComponent = FC.InteractiveDateComponent = DateComponent.extend({
 
 	dateClickingClass: null,
 	dateSelectingClass: null,
@@ -7525,12 +7453,10 @@ var InteractiveDateComponent = FC.InteractiveDateComponent = DateComponent.exten
 
 });
 
-;;
-
-/*
-A set of rendering and date-related methods for a visual component comprised of one or more rows of day columns.
-Prerequisite: the object being mixed into needs to be a *Grid*
-*/
+    /*
+    A set of rendering and date-related methods for a visual component comprised of one or more rows of day columns.
+    Prerequisite: the object being mixed into needs to be a *Grid*
+    */
 var DayTableMixin = FC.DayTableMixin = {
 
 	breakOnWeeks: false, // should create a new row for each week?
@@ -7953,10 +7879,8 @@ var DayTableMixin = FC.DayTableMixin = {
 
 };
 
-;;
-
-/* An abstract class from which other views inherit from
-----------------------------------------------------------------------------------------------------------------------*/
+    /* An abstract class from which other views inherit from
+    ----------------------------------------------------------------------------------------------------------------------*/
 
 var View = FC.View = InteractiveDateComponent.extend({
 
@@ -8500,8 +8424,8 @@ var View = FC.View = InteractiveDateComponent.extend({
 
 
 	applyDateScroll: function(scroll) {
-		; // subclasses must implement
-	},
+		 // subclasses must implement
+    },
 
 
 	/* Event Drag-n-Drop
@@ -8877,9 +8801,7 @@ View.watch('legacyDateProps', [ 'dateProfile' ], function(deps) {
 	this.intervalEnd = calendar.msToMoment(dateProfile.currentUnzonedRange.endMs, dateProfile.isRangeAllDay);
 });
 
-;;
-
-View.mixin({
+    View.mixin({
 
 	usesMinMaxTime: false, // whether minTime/maxTime will affect the activeUnzonedRange. Views must opt-in.
 
@@ -9294,10 +9216,8 @@ View.mixin({
 
 });
 
-;;
-
-/* Toolbar with buttons and title
-----------------------------------------------------------------------------------------------------------------------*/
+    /* Toolbar with buttons and title
+    ----------------------------------------------------------------------------------------------------------------------*/
 
 function Toolbar(calendar, toolbarOptions) {
 	var t = this;
@@ -9553,9 +9473,7 @@ function Toolbar(calendar, toolbarOptions) {
 
 }
 
-;;
-
-var Calendar = FC.Calendar = Class.extend(EmitterMixin, ListenerMixin, {
+    var Calendar = FC.Calendar = Class.extend(EmitterMixin, ListenerMixin, {
 
 	view: null, // current View object
 	viewsByType: null, // holds all instantiated view instances, current or not
@@ -9891,10 +9809,9 @@ var Calendar = FC.Calendar = Class.extend(EmitterMixin, ListenerMixin, {
 
 });
 
-;;
-/*
-Options binding/triggering system.
-*/
+    /*
+    Options binding/triggering system.
+    */
 Calendar.mixin({
 
 	dirDefaults: null, // option defaults related to LTR or RTL
@@ -10035,9 +9952,7 @@ Calendar.mixin({
 
 });
 
-;;
-
-Calendar.mixin({
+    Calendar.mixin({
 
 	defaultAllDayEventDuration: null,
 	defaultTimedEventDuration: null,
@@ -10285,9 +10200,7 @@ Calendar.mixin({
 
 });
 
-;;
-
-Calendar.mixin({
+    Calendar.mixin({
 
 	viewSpecCache: null, // cache of view definitions (initialized in Calendar.js)
 
@@ -10451,9 +10364,7 @@ Calendar.mixin({
 
 });
 
-;;
-
-Calendar.mixin({
+    Calendar.mixin({
 
 	el: null,
 	contentEl: null,
@@ -10828,9 +10739,7 @@ Calendar.mixin({
 
 });
 
-;;
-
-Calendar.mixin({
+    Calendar.mixin({
 
 	header: null,
 	footer: null,
@@ -10930,12 +10839,10 @@ Calendar.mixin({
 
 });
 
-;;
-
-/*
-determines if eventInstanceGroup is allowed,
-in relation to other EVENTS and business hours.
-*/
+    /*
+    determines if eventInstanceGroup is allowed,
+    in relation to other EVENTS and business hours.
+    */
 Calendar.prototype.isEventInstanceGroupAllowed = function(eventInstanceGroup) {
 	var eventDef = eventInstanceGroup.getEventDef();
 	var eventFootprints = this.eventRangesToEventFootprints(eventInstanceGroup.getAllEventRanges());
@@ -11287,9 +11194,7 @@ Calendar.prototype.footprintsIntersect = function(footprint0, footprint1) {
 	return footprint0.unzonedRange.intersectsWith(footprint1.unzonedRange);
 };
 
-;;
-
-Calendar.mixin({
+    Calendar.mixin({
 
 	// Sources
 	// ------------------------------------------------------------------------------------
@@ -11498,9 +11403,7 @@ function filterLegacyEventInstances(legacyEventInstances, legacyQuery) {
 	}
 }
 
-;;
-
-Calendar.defaults = {
+    Calendar.defaults = {
 
 	titleRangeSeparator: ' \u2013 ', // en dash
 	monthYearFormat: 'MMMM YYYY', // required for en. other locales rely on datepicker computable option
@@ -11620,9 +11523,7 @@ Calendar.rtlDefaults = { // right-to-left defaults
 	}
 };
 
-;;
-
-var localeOptionHash = FC.locales = {}; // initialize and expose
+    var localeOptionHash = FC.locales = {}; // initialize and expose
 
 
 // TODO: document the structure and ordering of a FullCalendar locale file
@@ -11819,9 +11720,7 @@ function getMomentLocaleData(localeCode) {
 // Also, sets it as the default.
 FC.locale('en', Calendar.englishDefaults);
 
-;;
-
-var UnzonedRange = FC.UnzonedRange = Class.extend({
+    var UnzonedRange = FC.UnzonedRange = Class.extend({
 
 	startMs: null, // if null, no start constraint
 	endMs: null, // if null, no end constraint
@@ -12015,11 +11914,9 @@ function compareUnzonedRanges(range1, range2) {
 	return range1.startMs - range2.startMs; // earlier ranges go first
 }
 
-;;
-
-/*
-Meant to be immutable
-*/
+    /*
+    Meant to be immutable
+    */
 var ComponentFootprint = FC.ComponentFootprint = Class.extend({
 
 	unzonedRange: null,
@@ -12044,9 +11941,7 @@ var ComponentFootprint = FC.ComponentFootprint = Class.extend({
 
 });
 
-;;
-
-var EventPeriod = Class.extend(EmitterMixin, {
+    var EventPeriod = Class.extend(EmitterMixin, {
 
 	start: null,
 	end: null,
@@ -12388,9 +12283,7 @@ var EventPeriod = Class.extend(EmitterMixin, {
 
 });
 
-;;
-
-var EventManager = Class.extend(EmitterMixin, ListenerMixin, {
+    var EventManager = Class.extend(EmitterMixin, ListenerMixin, {
 
 	currentPeriod: null,
 
@@ -12743,9 +12636,7 @@ function isSourcesEquivalent(source0, source1) {
 	return source0.getPrimitive() == source1.getPrimitive();
 }
 
-;;
-
-var BUSINESS_HOUR_EVENT_DEFAULTS = {
+    var BUSINESS_HOUR_EVENT_DEFAULTS = {
 	start: '09:00',
 	end: '17:00',
 	dow: [ 1, 2, 3, 4, 5 ], // monday - friday
@@ -12829,9 +12720,7 @@ var BusinessHourGenerator = FC.BusinessHourGenerator = Class.extend({
 
 });
 
-;;
-
-var EventDefParser = {
+    var EventDefParser = {
 
 	parse: function(eventInput, source) {
 		if (
@@ -12847,9 +12736,7 @@ var EventDefParser = {
 
 };
 
-;;
-
-var EventDef = FC.EventDef = Class.extend(ParsableModelMixin, {
+    var EventDef = FC.EventDef = Class.extend(ParsableModelMixin, {
 
 	source: null, // required
 
@@ -13103,9 +12990,7 @@ EventDef.parse = function(rawInput, source) {
 	return false;
 };
 
-;;
-
-var SingleEventDef = EventDef.extend({
+    var SingleEventDef = EventDef.extend({
 
 	dateProfile: null,
 
@@ -13188,9 +13073,7 @@ SingleEventDef.defineStandardProps({ // false = manually process
 	allDay: false
 });
 
-;;
-
-var RecurringEventDef = EventDef.extend({
+    var RecurringEventDef = EventDef.extend({
 
 	startTime: null, // duration
 	endTime: null, // duration, or null
@@ -13310,9 +13193,7 @@ RecurringEventDef.defineStandardProps({ // false = manually process
 	dow: false
 });
 
-;;
-
-var EventInstance = Class.extend({
+    var EventInstance = Class.extend({
 
 	def: null, // EventDef
 	dateProfile: null, // EventDateProfile
@@ -13336,12 +13217,10 @@ var EventInstance = Class.extend({
 
 });
 
-;;
-
-/*
-It's expected that there will be at least one EventInstance,
-OR that an explicitEventDef is assigned.
-*/
+    /*
+    It's expected that there will be at least one EventInstance,
+    OR that an explicitEventDef is assigned.
+    */
 var EventInstanceGroup = FC.EventInstanceGroup = Class.extend({
 
 	eventInstances: null,
@@ -13422,11 +13301,9 @@ var EventInstanceGroup = FC.EventInstanceGroup = Class.extend({
 
 });
 
-;;
-
-/*
-Meant to be immutable
-*/
+    /*
+    Meant to be immutable
+    */
 var EventDateProfile = Class.extend({
 
 	start: null,
@@ -13532,9 +13409,7 @@ EventDateProfile.parse = function(rawProps, source) {
 	return new EventDateProfile(start, end, calendar);
 };
 
-;;
-
-var EventRange = Class.extend({
+    var EventRange = Class.extend({
 
 	unzonedRange: null,
 	eventDef: null,
@@ -13552,9 +13427,7 @@ var EventRange = Class.extend({
 
 });
 
-;;
-
-var EventFootprint = FC.EventFootprint = Class.extend({
+    var EventFootprint = FC.EventFootprint = Class.extend({
 
 	componentFootprint: null,
 	eventDef: null,
@@ -13577,9 +13450,7 @@ var EventFootprint = FC.EventFootprint = Class.extend({
 
 });
 
-;;
-
-var EventDefMutation = FC.EventDefMutation = Class.extend({
+    var EventDefMutation = FC.EventDefMutation = Class.extend({
 
 	// won't ever be empty. will be null instead.
 	// callers should use setDateMutation for setting.
@@ -13723,9 +13594,7 @@ EventDefMutation.createFromRawProps = function(eventInstance, rawProps, largeUni
 	return defMutation;
 };
 
-;;
-
-var EventDefDateMutation = Class.extend({
+    var EventDefDateMutation = Class.extend({
 
 	clearEnd: false,
 	forceTimed: false,
@@ -13898,9 +13767,7 @@ EventDefDateMutation.createFromDiff = function(dateProfile0, dateProfile1, large
 	return mutation;
 };
 
-;;
-
-function eventDefsToEventInstances(eventDefs, unzonedRange) {
+    function eventDefsToEventInstances(eventDefs, unzonedRange) {
 	var eventInstances = [];
 	var i;
 
@@ -13944,9 +13811,7 @@ function eventFootprintToComponentFootprint(eventFootprint) {
 	return eventFootprint.componentFootprint;
 }
 
-;;
-
-var EventSource = Class.extend(ParsableModelMixin, {
+    var EventSource = Class.extend(ParsableModelMixin, {
 
 	calendar: null,
 
@@ -14103,9 +13968,7 @@ EventSource.parse = function(rawInput, calendar) {
 
 FC.EventSource = EventSource;
 
-;;
-
-var EventSourceParser = {
+    var EventSourceParser = {
 
 	sourceClasses: [],
 
@@ -14134,9 +13997,7 @@ var EventSourceParser = {
 
 FC.EventSourceParser = EventSourceParser;
 
-;;
-
-var ArrayEventSource = EventSource.extend({
+    var ArrayEventSource = EventSource.extend({
 
 	rawEventDefs: null, // unparsed
 	eventDefs: null,
@@ -14240,9 +14101,7 @@ EventSourceParser.registerClass(ArrayEventSource);
 
 FC.ArrayEventSource = ArrayEventSource;
 
-;;
-
-var FuncEventSource = EventSource.extend({
+    var FuncEventSource = EventSource.extend({
 
 	func: null,
 
@@ -14312,9 +14171,7 @@ EventSourceParser.registerClass(FuncEventSource);
 
 FC.FuncEventSource = FuncEventSource;
 
-;;
-
-var JsonFeedEventSource = EventSource.extend({
+    var JsonFeedEventSource = EventSource.extend({
 
 	// these props must all be manually set before calling fetch
 	url: null,
@@ -14472,9 +14329,7 @@ EventSourceParser.registerClass(JsonFeedEventSource);
 
 FC.JsonFeedEventSource = JsonFeedEventSource;
 
-;;
-
-var ThemeRegistry = FC.ThemeRegistry = {
+    var ThemeRegistry = FC.ThemeRegistry = {
 
 	themeClassHash: {},
 
@@ -14498,9 +14353,7 @@ var ThemeRegistry = FC.ThemeRegistry = {
 
 };
 
-;;
-
-var Theme = FC.Theme = Class.extend({
+    var Theme = FC.Theme = Class.extend({
 
 	classes: {},
 	iconClasses: {},
@@ -14589,9 +14442,7 @@ var Theme = FC.Theme = Class.extend({
 
 });
 
-;;
-
-var StandardTheme = Theme.extend({
+    var StandardTheme = Theme.extend({
 
 	classes: {
 		widget: 'fc-unthemed',
@@ -14636,9 +14487,7 @@ var StandardTheme = Theme.extend({
 
 ThemeRegistry.register('standard', StandardTheme);
 
-;;
-
-var JqueryUiTheme = Theme.extend({
+    var JqueryUiTheme = Theme.extend({
 
 	classes: {
 		widget: 'ui-widget',
@@ -14685,9 +14534,7 @@ var JqueryUiTheme = Theme.extend({
 
 ThemeRegistry.register('jquery-ui', JqueryUiTheme);
 
-;;
-
-var BootstrapTheme = Theme.extend({
+    var BootstrapTheme = Theme.extend({
 
 	classes: {
 		widget: 'fc-bootstrap3',
@@ -14731,9 +14578,7 @@ var BootstrapTheme = Theme.extend({
 
 ThemeRegistry.register('bootstrap3', BootstrapTheme);
 
-;;
-
-var DayGridFillRenderer = FillRenderer.extend({
+    var DayGridFillRenderer = FillRenderer.extend({
 
 	fillSegTag: 'td', // override the default tag name
 
@@ -14795,10 +14640,8 @@ var DayGridFillRenderer = FillRenderer.extend({
 	}
 });
 
-;;
-
-/* Event-rendering methods for the DayGrid class
-----------------------------------------------------------------------------------------------------------------------*/
+    /* Event-rendering methods for the DayGrid class
+    ----------------------------------------------------------------------------------------------------------------------*/
 
 var DayGridEventRenderer = EventRenderer.extend({
 
@@ -15110,9 +14953,7 @@ function compareDaySegCols(a, b) {
 	return a.leftCol - b.leftCol;
 }
 
-;;
-
-var DayGridHelperRenderer = HelperRenderer.extend({
+    var DayGridHelperRenderer = HelperRenderer.extend({
 
 
 	// Renders a mock "helper" event. `sourceSeg` is the associated internal segment object. It can be null.
@@ -15156,10 +14997,8 @@ var DayGridHelperRenderer = HelperRenderer.extend({
 
 });
 
-;;
-
-/* A component that renders a grid of whole-days that runs horizontally. There can be multiple rows, one per week.
-----------------------------------------------------------------------------------------------------------------------*/
+    /* A component that renders a grid of whole-days that runs horizontally. There can be multiple rows, one per week.
+    ----------------------------------------------------------------------------------------------------------------------*/
 
 var DayGrid = FC.DayGrid = InteractiveDateComponent.extend(StandardInteractionsMixin, DayTableMixin, {
 
@@ -15553,10 +15392,8 @@ var DayGrid = FC.DayGrid = InteractiveDateComponent.extend(StandardInteractionsM
 
 });
 
-;;
-
-/* Methods relate to limiting the number events for a given day on a DayGrid
-----------------------------------------------------------------------------------------------------------------------*/
+    /* Methods relate to limiting the number events for a given day on a DayGrid
+    ----------------------------------------------------------------------------------------------------------------------*/
 // NOTE: all the segs being passed around in here are foreground segs
 
 DayGrid.mixin({
@@ -15952,10 +15789,8 @@ DayGrid.mixin({
 
 });
 
-;;
-
-/* An abstract class for the "basic" views, as well as month view. Renders one or more rows of day cells.
-----------------------------------------------------------------------------------------------------------------------*/
+    /* An abstract class for the "basic" views, as well as month view. Renders one or more rows of day cells.
+    ----------------------------------------------------------------------------------------------------------------------*/
 // It is a manager for a DayGrid subcomponent, which does most of the heavy lifting.
 // It is responsible for managing width/height.
 
@@ -15983,8 +15818,8 @@ var BasicView = FC.BasicView = View.extend({
 			else {
 				this.dayGrid.cellWeekNumbersVisible = false;
 				this.dayGrid.colWeekNumbersVisible = true;
-			};
-		}
+            }
+        }
 
 		this.addChild(this.dayGrid);
 
@@ -16285,10 +16120,8 @@ var basicDayGridMethods = { // not relly methods anymore
 
 };
 
-;;
-
-/* A month view with day cells running in rows (one-per-week) and columns
-----------------------------------------------------------------------------------------------------------------------*/
+    /* A month view with day cells running in rows (one-per-week) and columns
+    ----------------------------------------------------------------------------------------------------------------------*/
 
 var MonthView = FC.MonthView = BasicView.extend({
 
@@ -16335,9 +16168,7 @@ var MonthView = FC.MonthView = BasicView.extend({
 
 });
 
-;;
-
-fcViews.basic = {
+    fcViews.basic = {
 	'class': BasicView
 };
 
@@ -16358,9 +16189,7 @@ fcViews.month = {
 		fixedWeekCount: true
 	}
 };
-;;
-
-var TimeGridFillRenderer = FillRenderer.extend({
+    var TimeGridFillRenderer = FillRenderer.extend({
 
 
 	attachSegEls: function(type, segs) {
@@ -16388,12 +16217,10 @@ var TimeGridFillRenderer = FillRenderer.extend({
 
 });
 
-;;
-
-/*
-Only handles foreground segs.
-Does not own rendering. Use for low-level util methods by TimeGrid.
-*/
+    /*
+    Only handles foreground segs.
+    Does not own rendering. Use for low-level util methods by TimeGrid.
+    */
 var TimeGridEventRenderer = EventRenderer.extend({
 
 	timeGrid: null,
@@ -16774,9 +16601,7 @@ function isSlotSegCollision(seg1, seg2) {
 	return seg1.bottom > seg2.top && seg1.top < seg2.bottom;
 }
 
-;;
-
-var TimeGridHelperRenderer = HelperRenderer.extend({
+    var TimeGridHelperRenderer = HelperRenderer.extend({
 
 
 	renderSegs: function(segs, sourceSeg) {
@@ -16812,10 +16637,8 @@ var TimeGridHelperRenderer = HelperRenderer.extend({
 
 });
 
-;;
-
-/* A component that renders one or more columns of vertical time slots
-----------------------------------------------------------------------------------------------------------------------*/
+    /* A component that renders one or more columns of vertical time slots
+    ----------------------------------------------------------------------------------------------------------------------*/
 // We mixin DayTable, even though there is only a single row of days
 
 var TimeGrid = FC.TimeGrid = InteractiveDateComponent.extend(StandardInteractionsMixin, DayTableMixin, {
@@ -17472,10 +17295,8 @@ var TimeGrid = FC.TimeGrid = InteractiveDateComponent.extend(StandardInteraction
 
 });
 
-;;
-
-/* An abstract class for all agenda-related views. Displays one more columns with time slots running vertically.
-----------------------------------------------------------------------------------------------------------------------*/
+    /* An abstract class for all agenda-related views. Displays one more columns with time slots running vertically.
+    ----------------------------------------------------------------------------------------------------------------------*/
 // Is a manager for the TimeGrid subcomponent and possibly the DayGrid subcomponent (if allDaySlot is on).
 // Responsible for managing width/height.
 
@@ -17917,9 +17738,7 @@ function groupEventFootprintsByAllDay(eventFootprints) {
 	return { allDay: allDay, timed: timed };
 }
 
-;;
-
-var AGENDA_ALL_DAY_EVENT_LIMIT = 5;
+    var AGENDA_ALL_DAY_EVENT_LIMIT = 5;
 
 // potential nice values for the slot-duration and interval-duration
 // from largest to smallest
@@ -17949,11 +17768,9 @@ fcViews.agendaWeek = {
 	type: 'agenda',
 	duration: { weeks: 1 }
 };
-;;
-
-/*
-Responsible for the scroller, and forwarding event-related actions into the "grid".
-*/
+    /*
+    Responsible for the scroller, and forwarding event-related actions into the "grid".
+    */
 var ListView = FC.ListView = View.extend({
 
 	segSelector: '.fc-list-item', // which elements accept event actions
@@ -18259,9 +18076,7 @@ var ListView = FC.ListView = View.extend({
 
 });
 
-;;
-
-fcViews.list = {
+    fcViews.list = {
 	'class': ListView,
 	buttonTextKey: 'list', // what to lookup in locale files
 	defaults: {
@@ -18304,7 +18119,5 @@ fcViews.listYear = {
 	}
 };
 
-;;
-
-return FC; // export for Node/CommonJS
+    return FC; // export for Node/CommonJS
 });

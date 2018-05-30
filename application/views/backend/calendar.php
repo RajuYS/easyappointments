@@ -1,7 +1,10 @@
-<link rel="stylesheet" type="text/css" href="<?= asset_url('/assets/ext/jquery-fullcalendar/fullcalendar.css') ?>">
+<link rel="stylesheet" type="text/css" href="<?= asset_url('/assets/ext/new/fullcalendar/dist/fullcalendar.css') ?>">
+<link rel="stylesheet" type="text/css"
+      href="<?= asset_url('/assets/ext/new/fullcalendar-scheduler/dist/scheduler.css') ?>">
 
-<script src="<?= asset_url('assets/ext/moment/moment.min.js') ?>"></script>
-<script src="<?= asset_url('assets/ext/jquery-fullcalendar/fullcalendar.js') ?>"></script>
+<script src="<?= asset_url('assets/ext/new/moment/moment.js') ?>"></script>
+<script src="<?= asset_url('assets/ext/new/fullcalendar/dist/fullcalendar.js') ?>"></script>
+<script src="<?= asset_url('assets/ext/new/fullcalendar-scheduler/dist/scheduler.js') ?>"></script>
 <script src="<?= asset_url('assets/ext/jquery-sticky-table-headers/jquery.stickytableheaders.min.js') ?>"></script>
 <script src="<?= asset_url('assets/ext/jquery-ui/jquery-ui-timepicker-addon.js') ?>"></script>
 <script src="<?= asset_url('assets/js/backend_calendar.js') ?>"></script>

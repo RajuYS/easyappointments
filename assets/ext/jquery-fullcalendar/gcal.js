@@ -24,9 +24,7 @@ var JsonFeedEventSource = FC.JsonFeedEventSource;
 var EventSourceParser = FC.EventSourceParser;
 var applyAll = FC.applyAll;
 
-;;
-
-var GcalEventSource = EventSource.extend({
+    var GcalEventSource = EventSource.extend({
 
 	// TODO: eventually remove "googleCalendar" prefix (API-breaking)
 	googleCalendarApiKey: null,
@@ -282,7 +280,5 @@ function injectQsComponent(url, component) {
 EventSourceParser.registerClass(GcalEventSource);
 
 FC.GcalEventSource = GcalEventSource;
-
-;;
 
 });
